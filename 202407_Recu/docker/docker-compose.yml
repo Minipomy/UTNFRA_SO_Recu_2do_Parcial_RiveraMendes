@@ -1,0 +1,9 @@
+version: '3'
+
+services:
+    web:
+      image: minipomy/web2-riveramendes:latest
+      ports:
+         - "8081:80"
+      volumes:
+         - ./web/file/info.txt:/usr/share/nginx/html/file/info.txt 

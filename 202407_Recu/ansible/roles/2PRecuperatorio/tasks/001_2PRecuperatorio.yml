@@ -1,0 +1,19 @@
+---
+
+- name: Crear directorio
+  ansible.builtin.file:
+    path: /tmp/alumno/
+    state: directory
+
+
+- name: crear archivo
+  ansible.builtin.copy:
+    dest: /tmp/alumno/datos.txt
+    content: |
+      Nombre: Maximiliano
+      Apellido: Rivera Mendes
+      Division: 317 TN
+      Fecha: {{ ansible_date_time.date }}
+      -------------------------
+      Distribucion: {{ ansible_distribution }}
+      Cantidad de Cores: {{ ansible_processor_vcpus }}

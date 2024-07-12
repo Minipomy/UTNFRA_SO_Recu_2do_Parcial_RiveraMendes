@@ -1,0 +1,12 @@
+---
+# tasks file for Instala-tools_RiveraMendes
+#
+# # tasks file for Instala-tools_RiveraMendes
+
+ - name: "Rol: Instala-tools_RiveraMendes"
+   debug:
+     msg: "Inicio de tareas dentro del Rol: Instala-tools_RiveraMendes"
+ 
+ - name: "Include del yml Instala-tools_RiveraMendes"
+   include_tasks: 001_Instala-tools_RiveraMendes.yml
+

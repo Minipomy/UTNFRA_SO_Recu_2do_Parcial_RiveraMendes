@@ -1,0 +1,10 @@
+---
+# tasks file for 2PRecuperatorio
+
+ - name: "Rol: 2PRecuperatorio"
+   debug:
+     msg: "Inicio de tareas dentro del Rol: 2PRecuperatorio"
+
+ - name: "Task: 001_2PRecuperatorio | datos alumno"
+   include_tasks: 001_2PRecuperatorio.yml
+

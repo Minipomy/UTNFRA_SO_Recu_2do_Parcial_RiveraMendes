@@ -1,0 +1,1053 @@
+2024-07-11 20:21:47,578 p=7951 u=MRM n=ansible | [WARNING]: A duplicate localhost-like entry was found (localhost). First found localhost was 127.0.0.1
+
+2024-07-11 20:21:47,816 p=7951 u=MRM n=ansible | PLAY [all] *******************************************************************************************************************************
+2024-07-11 20:21:47,831 p=7951 u=MRM n=ansible | TASK [Gathering Facts] *******************************************************************************************************************
+2024-07-11 20:21:47,938 p=7951 u=MRM n=ansible | fatal: [127.0.0.1]: UNREACHABLE! => {"changed": false, "msg": "Failed to connect to the host via ssh: Warning: Permanently added '127.0.0.1' (ED25519) to the list of known hosts.\r\nMRM@127.0.0.1: Permission denied (publickey,password).", "unreachable": true}
+2024-07-11 20:21:49,100 p=7951 u=MRM n=ansible | ok: [localhost]
+2024-07-11 20:21:49,118 p=7951 u=MRM n=ansible | TASK [include_role : 2PRecuperatorio] ****************************************************************************************************
+2024-07-11 20:21:49,145 p=7951 u=MRM n=ansible | TASK [2PRecuperatorio : Rol: 2PRecuperatorio] ********************************************************************************************
+2024-07-11 20:21:49,158 p=7951 u=MRM n=ansible | ok: [localhost] => {
+    "msg": "Inicio de tareas dentro del Rol: 2PRecuperatorio"
+}
+2024-07-11 20:21:49,170 p=7951 u=MRM n=ansible | TASK [Otra tarea] ************************************************************************************************************************
+2024-07-11 20:21:49,183 p=7951 u=MRM n=ansible | ok: [localhost] => {
+    "msg": "Despues de la ejecucion del rol"
+}
+2024-07-11 20:21:49,204 p=7951 u=MRM n=ansible | PLAY RECAP *******************************************************************************************************************************
+2024-07-11 20:21:49,204 p=7951 u=MRM n=ansible | 127.0.0.1                  : ok=0    changed=0    unreachable=1    failed=0    skipped=0    rescued=0    ignored=0   
+2024-07-11 20:21:49,205 p=7951 u=MRM n=ansible | localhost                  : ok=3    changed=0    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+2024-07-11 20:24:28,057 p=8146 u=MRM n=ansible | [WARNING]: A duplicate localhost-like entry was found (localhost). First found localhost was 127.0.0.1
+
+2024-07-11 20:24:28,160 p=8146 u=MRM n=ansible | PLAY [all] *******************************************************************************************************************************
+2024-07-11 20:24:28,166 p=8146 u=MRM n=ansible | TASK [Gathering Facts] *******************************************************************************************************************
+2024-07-11 20:24:29,235 p=8146 u=MRM n=ansible | ok: [localhost]
+2024-07-11 20:24:29,568 p=8146 u=MRM n=ansible | ok: [127.0.0.1]
+2024-07-11 20:24:29,594 p=8146 u=MRM n=ansible | TASK [include_role : 2PRecuperatorio] ****************************************************************************************************
+2024-07-11 20:24:29,636 p=8146 u=MRM n=ansible | TASK [2PRecuperatorio : Rol: 2PRecuperatorio] ********************************************************************************************
+2024-07-11 20:24:29,657 p=8146 u=MRM n=ansible | ok: [127.0.0.1] => {
+    "msg": "Inicio de tareas dentro del Rol: 2PRecuperatorio"
+}
+2024-07-11 20:24:29,665 p=8146 u=MRM n=ansible | ok: [localhost] => {
+    "msg": "Inicio de tareas dentro del Rol: 2PRecuperatorio"
+}
+2024-07-11 20:24:29,682 p=8146 u=MRM n=ansible | TASK [Otra tarea] ************************************************************************************************************************
+2024-07-11 20:24:29,702 p=8146 u=MRM n=ansible | ok: [127.0.0.1] => {
+    "msg": "Despues de la ejecucion del rol"
+}
+2024-07-11 20:24:29,708 p=8146 u=MRM n=ansible | ok: [localhost] => {
+    "msg": "Despues de la ejecucion del rol"
+}
+2024-07-11 20:24:29,764 p=8146 u=MRM n=ansible | PLAY RECAP *******************************************************************************************************************************
+2024-07-11 20:24:29,765 p=8146 u=MRM n=ansible | 127.0.0.1                  : ok=3    changed=0    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+2024-07-11 20:24:29,765 p=8146 u=MRM n=ansible | localhost                  : ok=3    changed=0    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+2024-07-11 20:25:27,749 p=8406 u=MRM n=ansible | [WARNING]: A duplicate localhost-like entry was found (localhost). First found localhost was 127.0.0.1
+
+2024-07-11 20:25:27,846 p=8406 u=MRM n=ansible | PLAY [all] *******************************************************************************************************************************
+2024-07-11 20:25:27,853 p=8406 u=MRM n=ansible | TASK [Gathering Facts] *******************************************************************************************************************
+2024-07-11 20:25:29,030 p=8406 u=MRM n=ansible | ok: [localhost]
+2024-07-11 20:25:29,076 p=8406 u=MRM n=ansible | ok: [127.0.0.1]
+2024-07-11 20:25:29,102 p=8406 u=MRM n=ansible | TASK [include_role : 2PRecuperatorio] ****************************************************************************************************
+2024-07-11 20:25:29,145 p=8406 u=MRM n=ansible | TASK [2PRecuperatorio : Rol: 2PRecuperatorio] ********************************************************************************************
+2024-07-11 20:25:29,170 p=8406 u=MRM n=ansible | ok: [127.0.0.1] => {
+    "msg": "Inicio de tareas dentro del Rol: 2PRecuperatorio"
+}
+2024-07-11 20:25:29,172 p=8406 u=MRM n=ansible | ok: [localhost] => {
+    "msg": "Inicio de tareas dentro del Rol: 2PRecuperatorio"
+}
+2024-07-11 20:25:29,190 p=8406 u=MRM n=ansible | TASK [include_role : Instala-tools_RiveraMendes] *****************************************************************************************
+2024-07-11 20:25:29,230 p=8406 u=MRM n=ansible | ERROR! [DEPRECATED]: ansible.builtin.include has been removed. Use include_tasks or import_tasks instead. This feature was removed from ansible-core in a release after 2023-05-16. Please update your playbooks.
+
+The error appears to be in '/home/MRM/UTN-FRA_SO_Examenes/202407_Recu/ansible/roles/Instala-tools_RiveraMendes/tasks/main.yml': line 10, column 4, but may
+be elsewhere in the file depending on the exact syntax problem.
+
+The offending line appears to be:
+
+
+ - name: "Include del yml Instala-tools_RiveraMendes"
+   ^ here
+
+2024-07-11 20:25:29,232 p=8406 u=MRM n=ansible | PLAY RECAP *******************************************************************************************************************************
+2024-07-11 20:25:29,232 p=8406 u=MRM n=ansible | 127.0.0.1                  : ok=2    changed=0    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+2024-07-11 20:25:29,232 p=8406 u=MRM n=ansible | localhost                  : ok=2    changed=0    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+2024-07-11 20:26:03,758 p=8612 u=MRM n=ansible | [WARNING]: A duplicate localhost-like entry was found (localhost). First found localhost was 127.0.0.1
+
+2024-07-11 20:26:03,855 p=8612 u=MRM n=ansible | PLAY [all] *******************************************************************************************************************************
+2024-07-11 20:26:03,862 p=8612 u=MRM n=ansible | TASK [Gathering Facts] *******************************************************************************************************************
+2024-07-11 20:26:05,027 p=8612 u=MRM n=ansible | ok: [localhost]
+2024-07-11 20:26:05,090 p=8612 u=MRM n=ansible | ok: [127.0.0.1]
+2024-07-11 20:26:05,116 p=8612 u=MRM n=ansible | TASK [include_role : 2PRecuperatorio] ****************************************************************************************************
+2024-07-11 20:26:05,158 p=8612 u=MRM n=ansible | TASK [2PRecuperatorio : Rol: 2PRecuperatorio] ********************************************************************************************
+2024-07-11 20:26:05,178 p=8612 u=MRM n=ansible | ok: [127.0.0.1] => {
+    "msg": "Inicio de tareas dentro del Rol: 2PRecuperatorio"
+}
+2024-07-11 20:26:05,184 p=8612 u=MRM n=ansible | ok: [localhost] => {
+    "msg": "Inicio de tareas dentro del Rol: 2PRecuperatorio"
+}
+2024-07-11 20:26:05,201 p=8612 u=MRM n=ansible | TASK [include_role : Instala-tools_RiveraMendes] *****************************************************************************************
+2024-07-11 20:26:05,269 p=8612 u=MRM n=ansible | TASK [Instala-tools_RiveraMendes : Rol: Instala-tools_RiveraMendes] **********************************************************************
+2024-07-11 20:26:05,290 p=8612 u=MRM n=ansible | ok: [127.0.0.1] => {
+    "msg": "Inicio de tareas dentro del Rol: Instala-tools_RiveraMendes"
+}
+2024-07-11 20:26:05,296 p=8612 u=MRM n=ansible | ok: [localhost] => {
+    "msg": "Inicio de tareas dentro del Rol: Instala-tools_RiveraMendes"
+}
+2024-07-11 20:26:05,303 p=8612 u=MRM n=ansible | TASK [Instala-tools_RiveraMendes : Include del yml Instala-tools_RiveraMendes] ***********************************************************
+2024-07-11 20:26:05,351 p=8612 u=MRM n=ansible | included: /home/MRM/UTN-FRA_SO_Examenes/202407_Recu/ansible/roles/Instala-tools_RiveraMendes/tasks/001_Instala-tools_RiveraMendes.yml for 127.0.0.1, localhost
+2024-07-11 20:26:05,360 p=8612 u=MRM n=ansible | TASK [Instala-tools_RiveraMendes : Instalar programas en hosts] **************************************************************************
+2024-07-11 20:26:06,415 p=8612 u=MRM n=ansible | ok: [localhost] => (item=htop)
+2024-07-11 20:26:06,470 p=8612 u=MRM n=ansible | ok: [127.0.0.1] => (item=htop)
+2024-07-11 20:26:07,557 p=8612 u=MRM n=ansible | failed: [127.0.0.1] (item=net-tools) => {"ansible_loop_var": "item", "cache_update_time": 1720134426, "cache_updated": false, "changed": false, "item": "net-tools", "msg": "'/usr/bin/apt-get -y -o \"Dpkg::Options::=--force-confdef\" -o \"Dpkg::Options::=--force-confold\"       install 'net-tools=1.60+git20181103.0eebece-1ubuntu5'' failed: E: Could not get lock /var/lib/dpkg/lock-frontend. It is held by process 8944 (apt-get)\nE: Unable to acquire the dpkg frontend lock (/var/lib/dpkg/lock-frontend), is another process using it?\n", "rc": 100, "stderr": "E: Could not get lock /var/lib/dpkg/lock-frontend. It is held by process 8944 (apt-get)\nE: Unable to acquire the dpkg frontend lock (/var/lib/dpkg/lock-frontend), is another process using it?\n", "stderr_lines": ["E: Could not get lock /var/lib/dpkg/lock-frontend. It is held by process 8944 (apt-get)", "E: Unable to acquire the dpkg frontend lock (/var/lib/dpkg/lock-frontend), is another process using it?"], "stdout": "", "stdout_lines": []}
+2024-07-11 20:26:08,568 p=8612 u=MRM n=ansible | ok: [127.0.0.1] => (item=tmux)
+2024-07-11 20:26:09,651 p=8612 u=MRM n=ansible | ok: [127.0.0.1] => (item=tree)
+2024-07-11 20:26:10,786 p=8612 u=MRM n=ansible | ok: [127.0.0.1] => (item=speedtest-cli)
+2024-07-11 20:26:11,581 p=8612 u=MRM n=ansible | changed: [localhost] => (item=net-tools)
+2024-07-11 20:26:12,452 p=8612 u=MRM n=ansible | ok: [localhost] => (item=tmux)
+2024-07-11 20:26:13,358 p=8612 u=MRM n=ansible | ok: [localhost] => (item=tree)
+2024-07-11 20:26:14,263 p=8612 u=MRM n=ansible | ok: [localhost] => (item=speedtest-cli)
+2024-07-11 20:26:14,276 p=8612 u=MRM n=ansible | TASK [Otra tarea] ************************************************************************************************************************
+2024-07-11 20:26:14,290 p=8612 u=MRM n=ansible | ok: [localhost] => {
+    "msg": "Despues de la ejecucion del rol"
+}
+2024-07-11 20:26:14,316 p=8612 u=MRM n=ansible | PLAY RECAP *******************************************************************************************************************************
+2024-07-11 20:26:14,316 p=8612 u=MRM n=ansible | 127.0.0.1                  : ok=4    changed=0    unreachable=0    failed=1    skipped=0    rescued=0    ignored=0   
+2024-07-11 20:26:14,316 p=8612 u=MRM n=ansible | localhost                  : ok=6    changed=1    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+2024-07-11 20:26:16,150 p=9233 u=MRM n=ansible | [WARNING]: A duplicate localhost-like entry was found (localhost). First found localhost was 127.0.0.1
+
+2024-07-11 20:26:16,250 p=9233 u=MRM n=ansible | PLAY [all] *******************************************************************************************************************************
+2024-07-11 20:26:16,257 p=9233 u=MRM n=ansible | TASK [Gathering Facts] *******************************************************************************************************************
+2024-07-11 20:26:17,429 p=9233 u=MRM n=ansible | ok: [localhost]
+2024-07-11 20:26:17,502 p=9233 u=MRM n=ansible | ok: [127.0.0.1]
+2024-07-11 20:26:17,528 p=9233 u=MRM n=ansible | TASK [include_role : 2PRecuperatorio] ****************************************************************************************************
+2024-07-11 20:26:17,572 p=9233 u=MRM n=ansible | TASK [2PRecuperatorio : Rol: 2PRecuperatorio] ********************************************************************************************
+2024-07-11 20:26:17,592 p=9233 u=MRM n=ansible | ok: [127.0.0.1] => {
+    "msg": "Inicio de tareas dentro del Rol: 2PRecuperatorio"
+}
+2024-07-11 20:26:17,598 p=9233 u=MRM n=ansible | ok: [localhost] => {
+    "msg": "Inicio de tareas dentro del Rol: 2PRecuperatorio"
+}
+2024-07-11 20:26:17,615 p=9233 u=MRM n=ansible | TASK [include_role : Instala-tools_RiveraMendes] *****************************************************************************************
+2024-07-11 20:26:17,688 p=9233 u=MRM n=ansible | TASK [Instala-tools_RiveraMendes : Rol: Instala-tools_RiveraMendes] **********************************************************************
+2024-07-11 20:26:17,706 p=9233 u=MRM n=ansible | ok: [127.0.0.1] => {
+    "msg": "Inicio de tareas dentro del Rol: Instala-tools_RiveraMendes"
+}
+2024-07-11 20:26:17,713 p=9233 u=MRM n=ansible | ok: [localhost] => {
+    "msg": "Inicio de tareas dentro del Rol: Instala-tools_RiveraMendes"
+}
+2024-07-11 20:26:17,719 p=9233 u=MRM n=ansible | TASK [Instala-tools_RiveraMendes : Include del yml Instala-tools_RiveraMendes] ***********************************************************
+2024-07-11 20:26:17,754 p=9233 u=MRM n=ansible | included: /home/MRM/UTN-FRA_SO_Examenes/202407_Recu/ansible/roles/Instala-tools_RiveraMendes/tasks/001_Instala-tools_RiveraMendes.yml for 127.0.0.1, localhost
+2024-07-11 20:26:17,763 p=9233 u=MRM n=ansible | TASK [Instala-tools_RiveraMendes : Instalar programas en hosts] **************************************************************************
+2024-07-11 20:26:18,779 p=9233 u=MRM n=ansible | ok: [localhost] => (item=htop)
+2024-07-11 20:26:18,864 p=9233 u=MRM n=ansible | ok: [127.0.0.1] => (item=htop)
+2024-07-11 20:26:19,693 p=9233 u=MRM n=ansible | ok: [localhost] => (item=net-tools)
+2024-07-11 20:26:19,923 p=9233 u=MRM n=ansible | ok: [127.0.0.1] => (item=net-tools)
+2024-07-11 20:26:20,614 p=9233 u=MRM n=ansible | ok: [localhost] => (item=tmux)
+2024-07-11 20:26:21,201 p=9233 u=MRM n=ansible | ok: [127.0.0.1] => (item=tmux)
+2024-07-11 20:26:21,541 p=9233 u=MRM n=ansible | ok: [localhost] => (item=tree)
+2024-07-11 20:26:22,251 p=9233 u=MRM n=ansible | ok: [127.0.0.1] => (item=tree)
+2024-07-11 20:26:22,463 p=9233 u=MRM n=ansible | ok: [localhost] => (item=speedtest-cli)
+2024-07-11 20:26:23,244 p=9233 u=MRM n=ansible | ok: [127.0.0.1] => (item=speedtest-cli)
+2024-07-11 20:26:23,265 p=9233 u=MRM n=ansible | TASK [Otra tarea] ************************************************************************************************************************
+2024-07-11 20:26:23,294 p=9233 u=MRM n=ansible | ok: [127.0.0.1] => {
+    "msg": "Despues de la ejecucion del rol"
+}
+2024-07-11 20:26:23,302 p=9233 u=MRM n=ansible | ok: [localhost] => {
+    "msg": "Despues de la ejecucion del rol"
+}
+2024-07-11 20:26:23,348 p=9233 u=MRM n=ansible | PLAY RECAP *******************************************************************************************************************************
+2024-07-11 20:26:23,348 p=9233 u=MRM n=ansible | 127.0.0.1                  : ok=6    changed=0    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+2024-07-11 20:26:23,348 p=9233 u=MRM n=ansible | localhost                  : ok=6    changed=0    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+2024-07-11 20:36:05,859 p=9880 u=MRM n=ansible | [WARNING]: A duplicate localhost-like entry was found (localhost). First found localhost was 127.0.0.1
+
+2024-07-11 20:36:05,958 p=9880 u=MRM n=ansible | PLAY [all] *******************************************************************************************************************************
+2024-07-11 20:36:05,966 p=9880 u=MRM n=ansible | TASK [Gathering Facts] *******************************************************************************************************************
+2024-07-11 20:36:07,044 p=9880 u=MRM n=ansible | ok: [localhost]
+2024-07-11 20:36:07,238 p=9880 u=MRM n=ansible | ok: [127.0.0.1]
+2024-07-11 20:36:07,265 p=9880 u=MRM n=ansible | TASK [include_role : 2PRecuperatorio] ****************************************************************************************************
+2024-07-11 20:36:07,309 p=9880 u=MRM n=ansible | TASK [2PRecuperatorio : Rol: 2PRecuperatorio] ********************************************************************************************
+2024-07-11 20:36:07,338 p=9880 u=MRM n=ansible | ok: [127.0.0.1] => {
+    "msg": "Inicio de tareas dentro del Rol: 2PRecuperatorio"
+}
+2024-07-11 20:36:07,339 p=9880 u=MRM n=ansible | ok: [localhost] => {
+    "msg": "Inicio de tareas dentro del Rol: 2PRecuperatorio"
+}
+2024-07-11 20:36:07,346 p=9880 u=MRM n=ansible | TASK [2PRecuperatorio : Task: 001_2PRecuperatorio | datos alumno] ************************************************************************
+2024-07-11 20:36:07,385 p=9880 u=MRM n=ansible | ERROR! unexpected parameter type in action: <class 'ansible.parsing.yaml.objects.AnsibleSequence'>
+
+The error appears to be in '/home/MRM/UTN-FRA_SO_Examenes/202407_Recu/ansible/roles/2PRecuperatorio/tasks/001_2PRecuperatorio.yml': line 2, column 3, but may
+be elsewhere in the file depending on the exact syntax problem.
+
+The offending line appears to be:
+
+---
+- name: Crear archivo /tmp/alumno/datos.txt
+  ^ here
+
+2024-07-11 20:39:46,745 p=10134 u=MRM n=ansible | [WARNING]: A duplicate localhost-like entry was found (localhost). First found localhost was 127.0.0.1
+
+2024-07-11 20:39:46,840 p=10134 u=MRM n=ansible | PLAY [all] *******************************************************************************************************************************
+2024-07-11 20:39:46,848 p=10134 u=MRM n=ansible | TASK [Gathering Facts] *******************************************************************************************************************
+2024-07-11 20:39:47,944 p=10134 u=MRM n=ansible | ok: [localhost]
+2024-07-11 20:39:48,334 p=10134 u=MRM n=ansible | ok: [127.0.0.1]
+2024-07-11 20:39:48,360 p=10134 u=MRM n=ansible | TASK [include_role : 2PRecuperatorio] ****************************************************************************************************
+2024-07-11 20:39:48,407 p=10134 u=MRM n=ansible | TASK [2PRecuperatorio : Rol: 2PRecuperatorio] ********************************************************************************************
+2024-07-11 20:39:48,428 p=10134 u=MRM n=ansible | ok: [127.0.0.1] => {
+    "msg": "Inicio de tareas dentro del Rol: 2PRecuperatorio"
+}
+2024-07-11 20:39:48,436 p=10134 u=MRM n=ansible | ok: [localhost] => {
+    "msg": "Inicio de tareas dentro del Rol: 2PRecuperatorio"
+}
+2024-07-11 20:39:48,443 p=10134 u=MRM n=ansible | TASK [2PRecuperatorio : Task: 001_2PRecuperatorio | datos alumno] ************************************************************************
+2024-07-11 20:39:48,480 p=10134 u=MRM n=ansible | ERROR! conflicting action statements: hosts, tasks
+
+The error appears to be in '/home/MRM/UTN-FRA_SO_Examenes/202407_Recu/ansible/roles/2PRecuperatorio/tasks/001_2PRecuperatorio.yml': line 2, column 3, but may
+be elsewhere in the file depending on the exact syntax problem.
+
+The offending line appears to be:
+
+---
+- name: Crear archivo /tmp/alumno/datos.txt
+  ^ here
+
+2024-07-11 20:41:25,899 p=10418 u=MRM n=ansible | [WARNING]: A duplicate localhost-like entry was found (localhost). First found localhost was 127.0.0.1
+
+2024-07-11 20:41:26,001 p=10418 u=MRM n=ansible | PLAY [all] *******************************************************************************************************************************
+2024-07-11 20:41:26,007 p=10418 u=MRM n=ansible | TASK [Gathering Facts] *******************************************************************************************************************
+2024-07-11 20:41:27,192 p=10418 u=MRM n=ansible | ok: [localhost]
+2024-07-11 20:41:27,361 p=10418 u=MRM n=ansible | ok: [127.0.0.1]
+2024-07-11 20:41:27,389 p=10418 u=MRM n=ansible | TASK [include_role : 2PRecuperatorio] ****************************************************************************************************
+2024-07-11 20:41:27,433 p=10418 u=MRM n=ansible | TASK [2PRecuperatorio : Rol: 2PRecuperatorio] ********************************************************************************************
+2024-07-11 20:41:27,453 p=10418 u=MRM n=ansible | ok: [127.0.0.1] => {
+    "msg": "Inicio de tareas dentro del Rol: 2PRecuperatorio"
+}
+2024-07-11 20:41:27,460 p=10418 u=MRM n=ansible | ok: [localhost] => {
+    "msg": "Inicio de tareas dentro del Rol: 2PRecuperatorio"
+}
+2024-07-11 20:41:27,467 p=10418 u=MRM n=ansible | TASK [2PRecuperatorio : Task: 001_2PRecuperatorio | datos alumno] ************************************************************************
+2024-07-11 20:41:27,501 p=10418 u=MRM n=ansible | ERROR! unexpected parameter type in action: <class 'ansible.parsing.yaml.objects.AnsibleSequence'>
+
+The error appears to be in '/home/MRM/UTN-FRA_SO_Examenes/202407_Recu/ansible/roles/2PRecuperatorio/tasks/001_2PRecuperatorio.yml': line 2, column 3, but may
+be elsewhere in the file depending on the exact syntax problem.
+
+The offending line appears to be:
+
+---
+- name: Crear archivo /tmp/alumno/datos.txt
+  ^ here
+
+2024-07-11 20:45:20,478 p=10670 u=MRM n=ansible | [WARNING]: A duplicate localhost-like entry was found (localhost). First found localhost was 127.0.0.1
+
+2024-07-11 20:45:20,572 p=10670 u=MRM n=ansible | PLAY [all] *******************************************************************************************************************************
+2024-07-11 20:45:20,578 p=10670 u=MRM n=ansible | TASK [Gathering Facts] *******************************************************************************************************************
+2024-07-11 20:45:21,690 p=10670 u=MRM n=ansible | ok: [localhost]
+2024-07-11 20:45:21,920 p=10670 u=MRM n=ansible | ok: [127.0.0.1]
+2024-07-11 20:45:21,948 p=10670 u=MRM n=ansible | TASK [include_role : 2PRecuperatorio] ****************************************************************************************************
+2024-07-11 20:45:21,994 p=10670 u=MRM n=ansible | TASK [2PRecuperatorio : Rol: 2PRecuperatorio] ********************************************************************************************
+2024-07-11 20:45:22,014 p=10670 u=MRM n=ansible | ok: [127.0.0.1] => {
+    "msg": "Inicio de tareas dentro del Rol: 2PRecuperatorio"
+}
+2024-07-11 20:45:22,021 p=10670 u=MRM n=ansible | ok: [localhost] => {
+    "msg": "Inicio de tareas dentro del Rol: 2PRecuperatorio"
+}
+2024-07-11 20:45:22,028 p=10670 u=MRM n=ansible | TASK [2PRecuperatorio : Task: 001_2PRecuperatorio | datos alumno] ************************************************************************
+2024-07-11 20:45:22,064 p=10670 u=MRM n=ansible | ERROR! conflicting action statements: hosts, tasks
+
+The error appears to be in '/home/MRM/UTN-FRA_SO_Examenes/202407_Recu/ansible/roles/2PRecuperatorio/tasks/001_2PRecuperatorio.yml': line 2, column 3, but may
+be elsewhere in the file depending on the exact syntax problem.
+
+The offending line appears to be:
+
+---
+- name: Crear archivo /tmp/alumno/datos.txt
+  ^ here
+
+2024-07-11 20:48:54,563 p=10933 u=MRM n=ansible | [WARNING]: A duplicate localhost-like entry was found (localhost). First found localhost was 127.0.0.1
+
+2024-07-11 20:48:54,663 p=10933 u=MRM n=ansible | PLAY [all] *******************************************************************************************************************************
+2024-07-11 20:48:54,669 p=10933 u=MRM n=ansible | TASK [Gathering Facts] *******************************************************************************************************************
+2024-07-11 20:48:55,844 p=10933 u=MRM n=ansible | ok: [localhost]
+2024-07-11 20:48:56,176 p=10933 u=MRM n=ansible | ok: [127.0.0.1]
+2024-07-11 20:48:56,201 p=10933 u=MRM n=ansible | TASK [include_role : 2PRecuperatorio] ****************************************************************************************************
+2024-07-11 20:48:56,247 p=10933 u=MRM n=ansible | TASK [2PRecuperatorio : Rol: 2PRecuperatorio] ********************************************************************************************
+2024-07-11 20:48:56,266 p=10933 u=MRM n=ansible | ok: [127.0.0.1] => {
+    "msg": "Inicio de tareas dentro del Rol: 2PRecuperatorio"
+}
+2024-07-11 20:48:56,276 p=10933 u=MRM n=ansible | ok: [localhost] => {
+    "msg": "Inicio de tareas dentro del Rol: 2PRecuperatorio"
+}
+2024-07-11 20:48:56,283 p=10933 u=MRM n=ansible | TASK [2PRecuperatorio : Task: 001_2PRecuperatorio | datos alumno] ************************************************************************
+2024-07-11 20:48:56,319 p=10933 u=MRM n=ansible | ERROR! unexpected parameter type in action: <class 'ansible.parsing.yaml.objects.AnsibleSequence'>
+
+The error appears to be in '/home/MRM/UTN-FRA_SO_Examenes/202407_Recu/ansible/roles/2PRecuperatorio/tasks/001_2PRecuperatorio.yml': line 2, column 3, but may
+be elsewhere in the file depending on the exact syntax problem.
+
+The offending line appears to be:
+
+---
+- name: Crear archivo /tmp/alumno/datos.txt
+  ^ here
+
+2024-07-11 20:51:41,913 p=11182 u=MRM n=ansible | [WARNING]: A duplicate localhost-like entry was found (localhost). First found localhost was 127.0.0.1
+
+2024-07-11 20:51:42,005 p=11182 u=MRM n=ansible | PLAY [all] *******************************************************************************************************************************
+2024-07-11 20:51:42,014 p=11182 u=MRM n=ansible | TASK [Gathering Facts] *******************************************************************************************************************
+2024-07-11 20:51:43,195 p=11182 u=MRM n=ansible | ok: [localhost]
+2024-07-11 20:51:43,514 p=11182 u=MRM n=ansible | ok: [127.0.0.1]
+2024-07-11 20:51:43,541 p=11182 u=MRM n=ansible | TASK [include_role : 2PRecuperatorio] ****************************************************************************************************
+2024-07-11 20:51:43,586 p=11182 u=MRM n=ansible | TASK [2PRecuperatorio : Rol: 2PRecuperatorio] ********************************************************************************************
+2024-07-11 20:51:43,604 p=11182 u=MRM n=ansible | ok: [127.0.0.1] => {
+    "msg": "Inicio de tareas dentro del Rol: 2PRecuperatorio"
+}
+2024-07-11 20:51:43,613 p=11182 u=MRM n=ansible | ok: [localhost] => {
+    "msg": "Inicio de tareas dentro del Rol: 2PRecuperatorio"
+}
+2024-07-11 20:51:43,619 p=11182 u=MRM n=ansible | TASK [2PRecuperatorio : Task: 001_2PRecuperatorio | datos alumno] ************************************************************************
+2024-07-11 20:51:43,654 p=11182 u=MRM n=ansible | ERROR! unexpected parameter type in action: <class 'ansible.parsing.yaml.objects.AnsibleSequence'>
+
+The error appears to be in '/home/MRM/UTN-FRA_SO_Examenes/202407_Recu/ansible/roles/2PRecuperatorio/tasks/001_2PRecuperatorio.yml': line 2, column 3, but may
+be elsewhere in the file depending on the exact syntax problem.
+
+The offending line appears to be:
+
+---
+- name: Crear archivo /tmp/alumno/datos.txt
+  ^ here
+
+2024-07-11 20:58:25,196 p=14610 u=MRM n=ansible | [WARNING]: A duplicate localhost-like entry was found (localhost). First found localhost was 127.0.0.1
+
+2024-07-11 20:58:25,408 p=14610 u=MRM n=ansible | PLAY [all] *******************************************************************************************************************************
+2024-07-11 20:58:25,425 p=14610 u=MRM n=ansible | TASK [Gathering Facts] *******************************************************************************************************************
+2024-07-11 20:58:26,747 p=14610 u=MRM n=ansible | ok: [localhost]
+2024-07-11 20:58:26,850 p=14610 u=MRM n=ansible | ok: [127.0.0.1]
+2024-07-11 20:58:26,876 p=14610 u=MRM n=ansible | TASK [include_role : 2PRecuperatorio] ****************************************************************************************************
+2024-07-11 20:58:26,930 p=14610 u=MRM n=ansible | TASK [2PRecuperatorio : Rol: 2PRecuperatorio] ********************************************************************************************
+2024-07-11 20:58:26,950 p=14610 u=MRM n=ansible | ok: [127.0.0.1] => {
+    "msg": "Inicio de tareas dentro del Rol: 2PRecuperatorio"
+}
+2024-07-11 20:58:26,958 p=14610 u=MRM n=ansible | ok: [localhost] => {
+    "msg": "Inicio de tareas dentro del Rol: 2PRecuperatorio"
+}
+2024-07-11 20:58:26,965 p=14610 u=MRM n=ansible | TASK [2PRecuperatorio : Task: 001_2PRecuperatorio | datos alumno] ************************************************************************
+2024-07-11 20:58:27,000 p=14610 u=MRM n=ansible | ERROR! unexpected parameter type in action: <class 'ansible.parsing.yaml.objects.AnsibleSequence'>
+
+The error appears to be in '/home/MRM/UTN-FRA_SO_Examenes/202407_Recu/ansible/roles/2PRecuperatorio/tasks/001_2PRecuperatorio.yml': line 2, column 5, but may
+be elsewhere in the file depending on the exact syntax problem.
+
+The offending line appears to be:
+
+---
+  - name: Crear archivo /tmp/alumno/datos.txt
+    ^ here
+
+2024-07-11 20:59:20,965 p=14860 u=MRM n=ansible | [WARNING]: A duplicate localhost-like entry was found (localhost). First found localhost was 127.0.0.1
+
+2024-07-11 20:59:21,060 p=14860 u=MRM n=ansible | PLAY [all] *******************************************************************************************************************************
+2024-07-11 20:59:21,066 p=14860 u=MRM n=ansible | TASK [Gathering Facts] *******************************************************************************************************************
+2024-07-11 20:59:22,235 p=14860 u=MRM n=ansible | ok: [localhost]
+2024-07-11 20:59:22,333 p=14860 u=MRM n=ansible | ok: [127.0.0.1]
+2024-07-11 20:59:22,361 p=14860 u=MRM n=ansible | TASK [include_role : 2PRecuperatorio] ****************************************************************************************************
+2024-07-11 20:59:22,404 p=14860 u=MRM n=ansible | TASK [2PRecuperatorio : Rol: 2PRecuperatorio] ********************************************************************************************
+2024-07-11 20:59:22,426 p=14860 u=MRM n=ansible | ok: [127.0.0.1] => {
+    "msg": "Inicio de tareas dentro del Rol: 2PRecuperatorio"
+}
+2024-07-11 20:59:22,432 p=14860 u=MRM n=ansible | ok: [localhost] => {
+    "msg": "Inicio de tareas dentro del Rol: 2PRecuperatorio"
+}
+2024-07-11 20:59:22,439 p=14860 u=MRM n=ansible | TASK [2PRecuperatorio : Task: 001_2PRecuperatorio | datos alumno] ************************************************************************
+2024-07-11 20:59:22,475 p=14860 u=MRM n=ansible | included: /home/MRM/UTN-FRA_SO_Examenes/202407_Recu/ansible/roles/2PRecuperatorio/tasks/001_2PRecuperatorio.yml for 127.0.0.1, localhost
+2024-07-11 20:59:22,482 p=14860 u=MRM n=ansible | TASK [2PRecuperatorio : Crear archivo] ***************************************************************************************************
+2024-07-11 20:59:22,786 p=14860 u=MRM n=ansible | fatal: [localhost]: FAILED! => {"changed": false, "msg": "Unsupported parameters for (ansible.builtin.file) module: content. Supported parameters include: _diff_peek, _original_basename, access_time, access_time_format, attributes, follow, force, group, mode, modification_time, modification_time_format, owner, path, recurse, selevel, serole, setype, seuser, src, state, unsafe_writes (attr, dest, name)."}
+2024-07-11 20:59:22,848 p=14860 u=MRM n=ansible | fatal: [127.0.0.1]: FAILED! => {"changed": false, "msg": "Unsupported parameters for (ansible.builtin.file) module: content. Supported parameters include: _diff_peek, _original_basename, access_time, access_time_format, attributes, follow, force, group, mode, modification_time, modification_time_format, owner, path, recurse, selevel, serole, setype, seuser, src, state, unsafe_writes (attr, dest, name)."}
+2024-07-11 20:59:22,850 p=14860 u=MRM n=ansible | PLAY RECAP *******************************************************************************************************************************
+2024-07-11 20:59:22,850 p=14860 u=MRM n=ansible | 127.0.0.1                  : ok=3    changed=0    unreachable=0    failed=1    skipped=0    rescued=0    ignored=0   
+2024-07-11 20:59:22,850 p=14860 u=MRM n=ansible | localhost                  : ok=3    changed=0    unreachable=0    failed=1    skipped=0    rescued=0    ignored=0   
+2024-07-11 21:02:40,312 p=15147 u=MRM n=ansible | [WARNING]: A duplicate localhost-like entry was found (localhost). First found localhost was 127.0.0.1
+
+2024-07-11 21:02:40,408 p=15147 u=MRM n=ansible | PLAY [all] *******************************************************************************************************************************
+2024-07-11 21:02:40,413 p=15147 u=MRM n=ansible | TASK [Gathering Facts] *******************************************************************************************************************
+2024-07-11 21:02:41,586 p=15147 u=MRM n=ansible | ok: [localhost]
+2024-07-11 21:02:41,766 p=15147 u=MRM n=ansible | ok: [127.0.0.1]
+2024-07-11 21:02:41,792 p=15147 u=MRM n=ansible | TASK [include_role : 2PRecuperatorio] ****************************************************************************************************
+2024-07-11 21:02:41,836 p=15147 u=MRM n=ansible | TASK [2PRecuperatorio : Rol: 2PRecuperatorio] ********************************************************************************************
+2024-07-11 21:02:41,856 p=15147 u=MRM n=ansible | ok: [127.0.0.1] => {
+    "msg": "Inicio de tareas dentro del Rol: 2PRecuperatorio"
+}
+2024-07-11 21:02:41,863 p=15147 u=MRM n=ansible | ok: [localhost] => {
+    "msg": "Inicio de tareas dentro del Rol: 2PRecuperatorio"
+}
+2024-07-11 21:02:41,869 p=15147 u=MRM n=ansible | TASK [2PRecuperatorio : Task: 001_2PRecuperatorio | datos alumno] ************************************************************************
+2024-07-11 21:02:41,904 p=15147 u=MRM n=ansible | ERROR! We were unable to read either as JSON nor YAML, these are the errors we got from each:
+JSON: Expecting value: line 1 column 1 (char 0)
+
+Syntax Error while loading YAML.
+  could not find expected ':'
+
+The error appears to be in '/home/MRM/UTN-FRA_SO_Examenes/202407_Recu/ansible/roles/2PRecuperatorio/tasks/001_2PRecuperatorio.yml': line 14, column 13, but may
+be elsewhere in the file depending on the exact syntax problem.
+
+The offending line appears to be:
+
+            -------------------------
+            Distribución: {{ ansible_distribution }}
+            ^ here
+We could be wrong, but this one looks like it might be an issue with
+missing quotes. Always quote template expression brackets when they
+start a value. For instance:
+
+    with_items:
+      - {{ foo }}
+
+Should be written as:
+
+    with_items:
+      - "{{ foo }}"
+
+2024-07-11 21:03:00,237 p=15393 u=MRM n=ansible | [WARNING]: A duplicate localhost-like entry was found (localhost). First found localhost was 127.0.0.1
+
+2024-07-11 21:03:00,341 p=15393 u=MRM n=ansible | PLAY [all] *******************************************************************************************************************************
+2024-07-11 21:03:00,347 p=15393 u=MRM n=ansible | TASK [Gathering Facts] *******************************************************************************************************************
+2024-07-11 21:03:01,501 p=15393 u=MRM n=ansible | ok: [localhost]
+2024-07-11 21:03:01,633 p=15393 u=MRM n=ansible | ok: [127.0.0.1]
+2024-07-11 21:03:01,659 p=15393 u=MRM n=ansible | TASK [include_role : 2PRecuperatorio] ****************************************************************************************************
+2024-07-11 21:03:01,703 p=15393 u=MRM n=ansible | TASK [2PRecuperatorio : Rol: 2PRecuperatorio] ********************************************************************************************
+2024-07-11 21:03:01,724 p=15393 u=MRM n=ansible | ok: [127.0.0.1] => {
+    "msg": "Inicio de tareas dentro del Rol: 2PRecuperatorio"
+}
+2024-07-11 21:03:01,734 p=15393 u=MRM n=ansible | ok: [localhost] => {
+    "msg": "Inicio de tareas dentro del Rol: 2PRecuperatorio"
+}
+2024-07-11 21:03:01,741 p=15393 u=MRM n=ansible | TASK [2PRecuperatorio : Task: 001_2PRecuperatorio | datos alumno] ************************************************************************
+2024-07-11 21:03:01,778 p=15393 u=MRM n=ansible | ERROR! unexpected parameter type in action: <class 'ansible.parsing.yaml.objects.AnsibleSequence'>
+
+The error appears to be in '/home/MRM/UTN-FRA_SO_Examenes/202407_Recu/ansible/roles/2PRecuperatorio/tasks/001_2PRecuperatorio.yml': line 2, column 5, but may
+be elsewhere in the file depending on the exact syntax problem.
+
+The offending line appears to be:
+
+---
+  - name: Crear archivo /tmp/alumno/datos.txt
+    ^ here
+
+2024-07-11 21:04:14,977 p=15607 u=MRM n=ansible | [WARNING]: A duplicate localhost-like entry was found (localhost). First found localhost was 127.0.0.1
+
+2024-07-11 21:04:15,078 p=15607 u=MRM n=ansible | PLAY [all] *******************************************************************************************************************************
+2024-07-11 21:04:15,085 p=15607 u=MRM n=ansible | TASK [Gathering Facts] *******************************************************************************************************************
+2024-07-11 21:04:16,256 p=15607 u=MRM n=ansible | ok: [localhost]
+2024-07-11 21:04:16,565 p=15607 u=MRM n=ansible | ok: [127.0.0.1]
+2024-07-11 21:04:16,591 p=15607 u=MRM n=ansible | TASK [include_role : 2PRecuperatorio] ****************************************************************************************************
+2024-07-11 21:04:16,636 p=15607 u=MRM n=ansible | TASK [2PRecuperatorio : Rol: 2PRecuperatorio] ********************************************************************************************
+2024-07-11 21:04:16,655 p=15607 u=MRM n=ansible | ok: [127.0.0.1] => {
+    "msg": "Inicio de tareas dentro del Rol: 2PRecuperatorio"
+}
+2024-07-11 21:04:16,661 p=15607 u=MRM n=ansible | ok: [localhost] => {
+    "msg": "Inicio de tareas dentro del Rol: 2PRecuperatorio"
+}
+2024-07-11 21:04:16,667 p=15607 u=MRM n=ansible | TASK [2PRecuperatorio : Task: 001_2PRecuperatorio | datos alumno] ************************************************************************
+2024-07-11 21:04:16,704 p=15607 u=MRM n=ansible | ERROR! unexpected parameter type in action: <class 'ansible.parsing.yaml.objects.AnsibleSequence'>
+
+The error appears to be in '/home/MRM/UTN-FRA_SO_Examenes/202407_Recu/ansible/roles/2PRecuperatorio/tasks/001_2PRecuperatorio.yml': line 2, column 5, but may
+be elsewhere in the file depending on the exact syntax problem.
+
+The offending line appears to be:
+
+---
+  - name: Crear archivo /tmp/alumno/datos.txt
+    ^ here
+
+2024-07-11 21:09:03,274 p=15872 u=MRM n=ansible | [WARNING]: A duplicate localhost-like entry was found (localhost). First found localhost was 127.0.0.1
+
+2024-07-11 21:09:03,369 p=15872 u=MRM n=ansible | PLAY [all] *******************************************************************************************************************************
+2024-07-11 21:09:03,377 p=15872 u=MRM n=ansible | TASK [Gathering Facts] *******************************************************************************************************************
+2024-07-11 21:09:04,598 p=15872 u=MRM n=ansible | ok: [localhost]
+2024-07-11 21:09:04,773 p=15872 u=MRM n=ansible | ok: [127.0.0.1]
+2024-07-11 21:09:04,799 p=15872 u=MRM n=ansible | TASK [include_role : 2PRecuperatorio] ****************************************************************************************************
+2024-07-11 21:09:04,849 p=15872 u=MRM n=ansible | TASK [2PRecuperatorio : Rol: 2PRecuperatorio] ********************************************************************************************
+2024-07-11 21:09:04,867 p=15872 u=MRM n=ansible | ok: [127.0.0.1] => {
+    "msg": "Inicio de tareas dentro del Rol: 2PRecuperatorio"
+}
+2024-07-11 21:09:04,876 p=15872 u=MRM n=ansible | ok: [localhost] => {
+    "msg": "Inicio de tareas dentro del Rol: 2PRecuperatorio"
+}
+2024-07-11 21:09:04,883 p=15872 u=MRM n=ansible | TASK [2PRecuperatorio : Task: 001_2PRecuperatorio | datos alumno] ************************************************************************
+2024-07-11 21:09:04,918 p=15872 u=MRM n=ansible | ERROR! We were unable to read either as JSON nor YAML, these are the errors we got from each:
+JSON: Expecting value: line 1 column 1 (char 0)
+
+Syntax Error while loading YAML.
+  mapping values are not allowed in this context
+
+The error appears to be in '/home/MRM/UTN-FRA_SO_Examenes/202407_Recu/ansible/roles/2PRecuperatorio/tasks/001_2PRecuperatorio.yml': line 8, column 17, but may
+be elsewhere in the file depending on the exact syntax problem.
+
+The offending line appears to be:
+
+        content: $|
+          Nombre: Maximiliano
+                ^ here
+
+2024-07-11 21:09:13,578 p=16119 u=MRM n=ansible | [WARNING]: A duplicate localhost-like entry was found (localhost). First found localhost was 127.0.0.1
+
+2024-07-11 21:09:13,677 p=16119 u=MRM n=ansible | PLAY [all] *******************************************************************************************************************************
+2024-07-11 21:09:13,683 p=16119 u=MRM n=ansible | TASK [Gathering Facts] *******************************************************************************************************************
+2024-07-11 21:09:14,851 p=16119 u=MRM n=ansible | ok: [localhost]
+2024-07-11 21:09:14,935 p=16119 u=MRM n=ansible | ok: [127.0.0.1]
+2024-07-11 21:09:14,961 p=16119 u=MRM n=ansible | TASK [include_role : 2PRecuperatorio] ****************************************************************************************************
+2024-07-11 21:09:15,007 p=16119 u=MRM n=ansible | TASK [2PRecuperatorio : Rol: 2PRecuperatorio] ********************************************************************************************
+2024-07-11 21:09:15,027 p=16119 u=MRM n=ansible | ok: [127.0.0.1] => {
+    "msg": "Inicio de tareas dentro del Rol: 2PRecuperatorio"
+}
+2024-07-11 21:09:15,033 p=16119 u=MRM n=ansible | ok: [localhost] => {
+    "msg": "Inicio de tareas dentro del Rol: 2PRecuperatorio"
+}
+2024-07-11 21:09:15,039 p=16119 u=MRM n=ansible | TASK [2PRecuperatorio : Task: 001_2PRecuperatorio | datos alumno] ************************************************************************
+2024-07-11 21:09:15,076 p=16119 u=MRM n=ansible | ERROR! We were unable to read either as JSON nor YAML, these are the errors we got from each:
+JSON: Expecting value: line 1 column 1 (char 0)
+
+Syntax Error while loading YAML.
+  could not find expected ':'
+
+The error appears to be in '/home/MRM/UTN-FRA_SO_Examenes/202407_Recu/ansible/roles/2PRecuperatorio/tasks/001_2PRecuperatorio.yml': line 13, column 11, but may
+be elsewhere in the file depending on the exact syntax problem.
+
+The offending line appears to be:
+
+          -------------------------
+          Distribución: {{ ansible_distribution }}
+          ^ here
+We could be wrong, but this one looks like it might be an issue with
+missing quotes. Always quote template expression brackets when they
+start a value. For instance:
+
+    with_items:
+      - {{ foo }}
+
+Should be written as:
+
+    with_items:
+      - "{{ foo }}"
+
+2024-07-11 21:09:31,300 p=16326 u=MRM n=ansible | [WARNING]: A duplicate localhost-like entry was found (localhost). First found localhost was 127.0.0.1
+
+2024-07-11 21:09:31,401 p=16326 u=MRM n=ansible | PLAY [all] *******************************************************************************************************************************
+2024-07-11 21:09:31,407 p=16326 u=MRM n=ansible | TASK [Gathering Facts] *******************************************************************************************************************
+2024-07-11 21:09:32,560 p=16326 u=MRM n=ansible | ok: [localhost]
+2024-07-11 21:09:32,673 p=16326 u=MRM n=ansible | ok: [127.0.0.1]
+2024-07-11 21:09:32,698 p=16326 u=MRM n=ansible | TASK [include_role : 2PRecuperatorio] ****************************************************************************************************
+2024-07-11 21:09:32,745 p=16326 u=MRM n=ansible | TASK [2PRecuperatorio : Rol: 2PRecuperatorio] ********************************************************************************************
+2024-07-11 21:09:32,767 p=16326 u=MRM n=ansible | ok: [127.0.0.1] => {
+    "msg": "Inicio de tareas dentro del Rol: 2PRecuperatorio"
+}
+2024-07-11 21:09:32,772 p=16326 u=MRM n=ansible | ok: [localhost] => {
+    "msg": "Inicio de tareas dentro del Rol: 2PRecuperatorio"
+}
+2024-07-11 21:09:32,778 p=16326 u=MRM n=ansible | TASK [2PRecuperatorio : Task: 001_2PRecuperatorio | datos alumno] ************************************************************************
+2024-07-11 21:09:32,813 p=16326 u=MRM n=ansible | ERROR! We were unable to read either as JSON nor YAML, these are the errors we got from each:
+JSON: Expecting value: line 1 column 1 (char 0)
+
+Syntax Error while loading YAML.
+  mapping values are not allowed in this context
+
+The error appears to be in '/home/MRM/UTN-FRA_SO_Examenes/202407_Recu/ansible/roles/2PRecuperatorio/tasks/001_2PRecuperatorio.yml': line 10, column 19, but may
+be elsewhere in the file depending on the exact syntax problem.
+
+The offending line appears to be:
+
+          División= 317 TN
+                  ^ here
+
+There appears to be both 'k=v' shorthand syntax and YAML in this task. Only one syntax may be used.
+We could be wrong, but this one looks like it might be an issue with
+missing quotes. Always quote template expression brackets when they
+start a value. For instance:
+
+    with_items:
+      - {{ foo }}
+
+Should be written as:
+
+    with_items:
+      - "{{ foo }}"
+
+2024-07-11 21:11:17,182 p=16546 u=MRM n=ansible | [WARNING]: A duplicate localhost-like entry was found (localhost). First found localhost was 127.0.0.1
+
+2024-07-11 21:11:17,283 p=16546 u=MRM n=ansible | PLAY [all] *******************************************************************************************************************************
+2024-07-11 21:11:17,290 p=16546 u=MRM n=ansible | TASK [Gathering Facts] *******************************************************************************************************************
+2024-07-11 21:11:18,511 p=16546 u=MRM n=ansible | ok: [localhost]
+2024-07-11 21:11:18,714 p=16546 u=MRM n=ansible | ok: [127.0.0.1]
+2024-07-11 21:11:18,740 p=16546 u=MRM n=ansible | TASK [include_role : 2PRecuperatorio] ****************************************************************************************************
+2024-07-11 21:11:18,786 p=16546 u=MRM n=ansible | TASK [2PRecuperatorio : Rol: 2PRecuperatorio] ********************************************************************************************
+2024-07-11 21:11:18,811 p=16546 u=MRM n=ansible | ok: [127.0.0.1] => {
+    "msg": "Inicio de tareas dentro del Rol: 2PRecuperatorio"
+}
+2024-07-11 21:11:18,817 p=16546 u=MRM n=ansible | ok: [localhost] => {
+    "msg": "Inicio de tareas dentro del Rol: 2PRecuperatorio"
+}
+2024-07-11 21:11:18,824 p=16546 u=MRM n=ansible | TASK [2PRecuperatorio : Task: 001_2PRecuperatorio | datos alumno] ************************************************************************
+2024-07-11 21:11:18,860 p=16546 u=MRM n=ansible | ERROR! unexpected parameter type in action: <class 'bool'>
+
+The error appears to be in '/home/MRM/UTN-FRA_SO_Examenes/202407_Recu/ansible/roles/2PRecuperatorio/tasks/001_2PRecuperatorio.yml': line 2, column 3, but may
+be elsewhere in the file depending on the exact syntax problem.
+
+The offending line appears to be:
+
+---
+- name: Crear archivo /tmp/alumno/datos.txt
+  ^ here
+
+2024-07-11 21:11:39,701 p=16791 u=MRM n=ansible | [WARNING]: A duplicate localhost-like entry was found (localhost). First found localhost was 127.0.0.1
+
+2024-07-11 21:11:39,793 p=16791 u=MRM n=ansible | PLAY [all] *******************************************************************************************************************************
+2024-07-11 21:11:39,804 p=16791 u=MRM n=ansible | TASK [Gathering Facts] *******************************************************************************************************************
+2024-07-11 21:11:41,056 p=16791 u=MRM n=ansible | ok: [localhost]
+2024-07-11 21:11:41,112 p=16791 u=MRM n=ansible | ok: [127.0.0.1]
+2024-07-11 21:11:41,138 p=16791 u=MRM n=ansible | TASK [include_role : 2PRecuperatorio] ****************************************************************************************************
+2024-07-11 21:11:41,182 p=16791 u=MRM n=ansible | TASK [2PRecuperatorio : Rol: 2PRecuperatorio] ********************************************************************************************
+2024-07-11 21:11:41,202 p=16791 u=MRM n=ansible | ok: [127.0.0.1] => {
+    "msg": "Inicio de tareas dentro del Rol: 2PRecuperatorio"
+}
+2024-07-11 21:11:41,211 p=16791 u=MRM n=ansible | ok: [localhost] => {
+    "msg": "Inicio de tareas dentro del Rol: 2PRecuperatorio"
+}
+2024-07-11 21:11:41,218 p=16791 u=MRM n=ansible | TASK [2PRecuperatorio : Task: 001_2PRecuperatorio | datos alumno] ************************************************************************
+2024-07-11 21:11:41,253 p=16791 u=MRM n=ansible | ERROR! unexpected parameter type in action: <class 'bool'>
+
+The error appears to be in '/home/MRM/UTN-FRA_SO_Examenes/202407_Recu/ansible/roles/2PRecuperatorio/tasks/001_2PRecuperatorio.yml': line 2, column 3, but may
+be elsewhere in the file depending on the exact syntax problem.
+
+The offending line appears to be:
+
+---
+- name: Crear archivo /tmp/alumno/datos.txt
+  ^ here
+
+2024-07-11 21:12:27,020 p=16996 u=MRM n=ansible | [WARNING]: A duplicate localhost-like entry was found (localhost). First found localhost was 127.0.0.1
+
+2024-07-11 21:12:27,126 p=16996 u=MRM n=ansible | PLAY [all] *******************************************************************************************************************************
+2024-07-11 21:12:27,135 p=16996 u=MRM n=ansible | TASK [Gathering Facts] *******************************************************************************************************************
+2024-07-11 21:12:28,439 p=16996 u=MRM n=ansible | ok: [localhost]
+2024-07-11 21:12:28,549 p=16996 u=MRM n=ansible | ok: [127.0.0.1]
+2024-07-11 21:12:28,581 p=16996 u=MRM n=ansible | TASK [include_role : 2PRecuperatorio] ****************************************************************************************************
+2024-07-11 21:12:28,628 p=16996 u=MRM n=ansible | TASK [2PRecuperatorio : Rol: 2PRecuperatorio] ********************************************************************************************
+2024-07-11 21:12:28,647 p=16996 u=MRM n=ansible | ok: [127.0.0.1] => {
+    "msg": "Inicio de tareas dentro del Rol: 2PRecuperatorio"
+}
+2024-07-11 21:12:28,655 p=16996 u=MRM n=ansible | ok: [localhost] => {
+    "msg": "Inicio de tareas dentro del Rol: 2PRecuperatorio"
+}
+2024-07-11 21:12:28,661 p=16996 u=MRM n=ansible | TASK [2PRecuperatorio : Task: 001_2PRecuperatorio | datos alumno] ************************************************************************
+2024-07-11 21:12:28,700 p=16996 u=MRM n=ansible | ERROR! conflicting action statements: hosts, gather_facts
+
+The error appears to be in '/home/MRM/UTN-FRA_SO_Examenes/202407_Recu/ansible/roles/2PRecuperatorio/tasks/001_2PRecuperatorio.yml': line 2, column 3, but may
+be elsewhere in the file depending on the exact syntax problem.
+
+The offending line appears to be:
+
+---
+- name: Crear archivo /tmp/alumno/datos.txt
+  ^ here
+
+2024-07-11 21:12:57,647 p=17201 u=MRM n=ansible | [WARNING]: A duplicate localhost-like entry was found (localhost). First found localhost was 127.0.0.1
+
+2024-07-11 21:12:57,743 p=17201 u=MRM n=ansible | PLAY [all] *******************************************************************************************************************************
+2024-07-11 21:12:57,749 p=17201 u=MRM n=ansible | TASK [Gathering Facts] *******************************************************************************************************************
+2024-07-11 21:12:58,971 p=17201 u=MRM n=ansible | ok: [localhost]
+2024-07-11 21:12:59,195 p=17201 u=MRM n=ansible | ok: [127.0.0.1]
+2024-07-11 21:12:59,221 p=17201 u=MRM n=ansible | TASK [include_role : 2PRecuperatorio] ****************************************************************************************************
+2024-07-11 21:12:59,267 p=17201 u=MRM n=ansible | TASK [2PRecuperatorio : Rol: 2PRecuperatorio] ********************************************************************************************
+2024-07-11 21:12:59,287 p=17201 u=MRM n=ansible | ok: [127.0.0.1] => {
+    "msg": "Inicio de tareas dentro del Rol: 2PRecuperatorio"
+}
+2024-07-11 21:12:59,294 p=17201 u=MRM n=ansible | ok: [localhost] => {
+    "msg": "Inicio de tareas dentro del Rol: 2PRecuperatorio"
+}
+2024-07-11 21:12:59,300 p=17201 u=MRM n=ansible | TASK [2PRecuperatorio : Task: 001_2PRecuperatorio | datos alumno] ************************************************************************
+2024-07-11 21:12:59,338 p=17201 u=MRM n=ansible | ERROR! conflicting action statements: hosts, tasks
+
+The error appears to be in '/home/MRM/UTN-FRA_SO_Examenes/202407_Recu/ansible/roles/2PRecuperatorio/tasks/001_2PRecuperatorio.yml': line 2, column 3, but may
+be elsewhere in the file depending on the exact syntax problem.
+
+The offending line appears to be:
+
+---
+- name: Crear archivo /tmp/alumno/datos.txt
+  ^ here
+
+2024-07-11 21:13:42,634 p=17406 u=MRM n=ansible | [WARNING]: A duplicate localhost-like entry was found (localhost). First found localhost was 127.0.0.1
+
+2024-07-11 21:13:42,739 p=17406 u=MRM n=ansible | PLAY [all] *******************************************************************************************************************************
+2024-07-11 21:13:42,747 p=17406 u=MRM n=ansible | TASK [Gathering Facts] *******************************************************************************************************************
+2024-07-11 21:13:43,985 p=17406 u=MRM n=ansible | ok: [localhost]
+2024-07-11 21:13:44,065 p=17406 u=MRM n=ansible | ok: [127.0.0.1]
+2024-07-11 21:13:44,091 p=17406 u=MRM n=ansible | TASK [include_role : 2PRecuperatorio] ****************************************************************************************************
+2024-07-11 21:13:44,136 p=17406 u=MRM n=ansible | TASK [2PRecuperatorio : Rol: 2PRecuperatorio] ********************************************************************************************
+2024-07-11 21:13:44,155 p=17406 u=MRM n=ansible | ok: [127.0.0.1] => {
+    "msg": "Inicio de tareas dentro del Rol: 2PRecuperatorio"
+}
+2024-07-11 21:13:44,164 p=17406 u=MRM n=ansible | ok: [localhost] => {
+    "msg": "Inicio de tareas dentro del Rol: 2PRecuperatorio"
+}
+2024-07-11 21:13:44,171 p=17406 u=MRM n=ansible | TASK [2PRecuperatorio : Task: 001_2PRecuperatorio | datos alumno] ************************************************************************
+2024-07-11 21:13:44,209 p=17406 u=MRM n=ansible | ERROR! unexpected parameter type in action: <class 'ansible.parsing.yaml.objects.AnsibleSequence'>
+
+The error appears to be in '/home/MRM/UTN-FRA_SO_Examenes/202407_Recu/ansible/roles/2PRecuperatorio/tasks/001_2PRecuperatorio.yml': line 2, column 3, but may
+be elsewhere in the file depending on the exact syntax problem.
+
+The offending line appears to be:
+
+---
+- name: Crear archivo /tmp/alumno/
+  ^ here
+
+2024-07-11 21:16:57,983 p=17623 u=MRM n=ansible | [WARNING]: A duplicate localhost-like entry was found (localhost). First found localhost was 127.0.0.1
+
+2024-07-11 21:16:58,089 p=17623 u=MRM n=ansible | PLAY [all] *******************************************************************************************************************************
+2024-07-11 21:16:58,095 p=17623 u=MRM n=ansible | TASK [Gathering Facts] *******************************************************************************************************************
+2024-07-11 21:16:59,345 p=17623 u=MRM n=ansible | ok: [localhost]
+2024-07-11 21:16:59,700 p=17623 u=MRM n=ansible | ok: [127.0.0.1]
+2024-07-11 21:16:59,728 p=17623 u=MRM n=ansible | TASK [include_role : 2PRecuperatorio] ****************************************************************************************************
+2024-07-11 21:16:59,770 p=17623 u=MRM n=ansible | TASK [2PRecuperatorio : Rol: 2PRecuperatorio] ********************************************************************************************
+2024-07-11 21:16:59,796 p=17623 u=MRM n=ansible | ok: [127.0.0.1] => {
+    "msg": "Inicio de tareas dentro del Rol: 2PRecuperatorio"
+}
+2024-07-11 21:16:59,798 p=17623 u=MRM n=ansible | ok: [localhost] => {
+    "msg": "Inicio de tareas dentro del Rol: 2PRecuperatorio"
+}
+2024-07-11 21:16:59,805 p=17623 u=MRM n=ansible | TASK [2PRecuperatorio : Task: 001_2PRecuperatorio | datos alumno] ************************************************************************
+2024-07-11 21:16:59,843 p=17623 u=MRM n=ansible | ERROR! unexpected parameter type in action: <class 'ansible.parsing.yaml.objects.AnsibleSequence'>
+
+The error appears to be in '/home/MRM/UTN-FRA_SO_Examenes/202407_Recu/ansible/roles/2PRecuperatorio/tasks/001_2PRecuperatorio.yml': line 2, column 3, but may
+be elsewhere in the file depending on the exact syntax problem.
+
+The offending line appears to be:
+
+---
+- name: crear archivo /tmp/alumno
+  ^ here
+
+2024-07-11 21:18:10,022 p=17952 u=MRM n=ansible | [WARNING]: A duplicate localhost-like entry was found (localhost). First found localhost was 127.0.0.1
+
+2024-07-11 21:18:10,120 p=17952 u=MRM n=ansible | PLAY [all] *******************************************************************************************************************************************************************************************************
+2024-07-11 21:18:10,127 p=17952 u=MRM n=ansible | TASK [Gathering Facts] *******************************************************************************************************************************************************************************************
+2024-07-11 21:18:11,310 p=17952 u=MRM n=ansible | ok: [localhost]
+2024-07-11 21:18:11,640 p=17952 u=MRM n=ansible | ok: [127.0.0.1]
+2024-07-11 21:18:11,665 p=17952 u=MRM n=ansible | TASK [include_role : 2PRecuperatorio] ****************************************************************************************************************************************************************************
+2024-07-11 21:18:11,712 p=17952 u=MRM n=ansible | TASK [2PRecuperatorio : Rol: 2PRecuperatorio] ********************************************************************************************************************************************************************
+2024-07-11 21:18:11,739 p=17952 u=MRM n=ansible | ok: [127.0.0.1] => {
+    "msg": "Inicio de tareas dentro del Rol: 2PRecuperatorio"
+}
+2024-07-11 21:18:11,741 p=17952 u=MRM n=ansible | ok: [localhost] => {
+    "msg": "Inicio de tareas dentro del Rol: 2PRecuperatorio"
+}
+2024-07-11 21:18:11,749 p=17952 u=MRM n=ansible | TASK [2PRecuperatorio : Task: 001_2PRecuperatorio | datos alumno] ************************************************************************************************************************************************
+2024-07-11 21:18:11,783 p=17952 u=MRM n=ansible | ERROR! unexpected parameter type in action: <class 'ansible.parsing.yaml.objects.AnsibleSequence'>
+
+The error appears to be in '/home/MRM/UTN-FRA_SO_Examenes/202407_Recu/ansible/roles/2PRecuperatorio/tasks/001_2PRecuperatorio.yml': line 2, column 3, but may
+be elsewhere in the file depending on the exact syntax problem.
+
+The offending line appears to be:
+
+---
+- name: crear archivo /tmp/alumno
+  ^ here
+
+2024-07-11 21:20:24,631 p=18203 u=MRM n=ansible | [WARNING]: A duplicate localhost-like entry was found (localhost). First found localhost was 127.0.0.1
+
+2024-07-11 21:20:24,733 p=18203 u=MRM n=ansible | PLAY [all] ***************************************************************************************************************************************************
+2024-07-11 21:20:24,740 p=18203 u=MRM n=ansible | TASK [Gathering Facts] ***************************************************************************************************************************************
+2024-07-11 21:20:25,922 p=18203 u=MRM n=ansible | ok: [localhost]
+2024-07-11 21:20:26,321 p=18203 u=MRM n=ansible | ok: [127.0.0.1]
+2024-07-11 21:20:26,346 p=18203 u=MRM n=ansible | TASK [include_role : 2PRecuperatorio] ************************************************************************************************************************
+2024-07-11 21:20:26,391 p=18203 u=MRM n=ansible | TASK [2PRecuperatorio : Rol: 2PRecuperatorio] ****************************************************************************************************************
+2024-07-11 21:20:26,412 p=18203 u=MRM n=ansible | ok: [127.0.0.1] => {
+    "msg": "Inicio de tareas dentro del Rol: 2PRecuperatorio"
+}
+2024-07-11 21:20:26,418 p=18203 u=MRM n=ansible | ok: [localhost] => {
+    "msg": "Inicio de tareas dentro del Rol: 2PRecuperatorio"
+}
+2024-07-11 21:20:26,424 p=18203 u=MRM n=ansible | TASK [2PRecuperatorio : Task: 001_2PRecuperatorio | datos alumno] ********************************************************************************************
+2024-07-11 21:20:26,460 p=18203 u=MRM n=ansible | ERROR! We were unable to read either as JSON nor YAML, these are the errors we got from each:
+JSON: Expecting value: line 1 column 1 (char 0)
+
+Syntax Error while loading YAML.
+  mapping values are not allowed in this context
+
+The error appears to be in '/home/MRM/UTN-FRA_SO_Examenes/202407_Recu/ansible/roles/2PRecuperatorio/tasks/001_2PRecuperatorio.yml': line 3, column 17, but may
+be elsewhere in the file depending on the exact syntax problem.
+
+The offending line appears to be:
+
+- name: crear archivo
+    gather_facts: yes
+                ^ here
+
+2024-07-11 21:21:06,626 p=18448 u=MRM n=ansible | [WARNING]: A duplicate localhost-like entry was found (localhost). First found localhost was 127.0.0.1
+
+2024-07-11 21:21:06,736 p=18448 u=MRM n=ansible | PLAY [all] **************************************************************************************************************************************************************************************************************************
+2024-07-11 21:21:06,745 p=18448 u=MRM n=ansible | TASK [Gathering Facts] **************************************************************************************************************************************************************************************************************
+2024-07-11 21:21:07,966 p=18448 u=MRM n=ansible | ok: [localhost]
+2024-07-11 21:21:08,044 p=18448 u=MRM n=ansible | ok: [127.0.0.1]
+2024-07-11 21:21:08,072 p=18448 u=MRM n=ansible | TASK [include_role : 2PRecuperatorio] ***********************************************************************************************************************************************************************************************
+2024-07-11 21:21:08,117 p=18448 u=MRM n=ansible | TASK [2PRecuperatorio : Rol: 2PRecuperatorio] ***************************************************************************************************************************************************************************************
+2024-07-11 21:21:08,138 p=18448 u=MRM n=ansible | ok: [127.0.0.1] => {
+    "msg": "Inicio de tareas dentro del Rol: 2PRecuperatorio"
+}
+2024-07-11 21:21:08,148 p=18448 u=MRM n=ansible | ok: [localhost] => {
+    "msg": "Inicio de tareas dentro del Rol: 2PRecuperatorio"
+}
+2024-07-11 21:21:08,154 p=18448 u=MRM n=ansible | TASK [2PRecuperatorio : Task: 001_2PRecuperatorio | datos alumno] *******************************************************************************************************************************************************************
+2024-07-11 21:21:08,190 p=18448 u=MRM n=ansible | ERROR! We were unable to read either as JSON nor YAML, these are the errors we got from each:
+JSON: Expecting value: line 1 column 1 (char 0)
+
+Syntax Error while loading YAML.
+  mapping values are not allowed in this context
+
+The error appears to be in '/home/MRM/UTN-FRA_SO_Examenes/202407_Recu/ansible/roles/2PRecuperatorio/tasks/001_2PRecuperatorio.yml': line 3, column 25, but may
+be elsewhere in the file depending on the exact syntax problem.
+
+The offending line appears to be:
+
+- name: crear archivo
+    ansible.builtin.copy:
+                        ^ here
+
+2024-07-11 21:21:26,606 p=18652 u=MRM n=ansible | [WARNING]: A duplicate localhost-like entry was found (localhost). First found localhost was 127.0.0.1
+
+2024-07-11 21:21:26,713 p=18652 u=MRM n=ansible | PLAY [all] **************************************************************************************************************************************************************************************************************************
+2024-07-11 21:21:26,720 p=18652 u=MRM n=ansible | TASK [Gathering Facts] **************************************************************************************************************************************************************************************************************
+2024-07-11 21:21:27,875 p=18652 u=MRM n=ansible | ok: [localhost]
+2024-07-11 21:21:27,951 p=18652 u=MRM n=ansible | ok: [127.0.0.1]
+2024-07-11 21:21:27,977 p=18652 u=MRM n=ansible | TASK [include_role : 2PRecuperatorio] ***********************************************************************************************************************************************************************************************
+2024-07-11 21:21:28,022 p=18652 u=MRM n=ansible | TASK [2PRecuperatorio : Rol: 2PRecuperatorio] ***************************************************************************************************************************************************************************************
+2024-07-11 21:21:28,041 p=18652 u=MRM n=ansible | ok: [127.0.0.1] => {
+    "msg": "Inicio de tareas dentro del Rol: 2PRecuperatorio"
+}
+2024-07-11 21:21:28,049 p=18652 u=MRM n=ansible | ok: [localhost] => {
+    "msg": "Inicio de tareas dentro del Rol: 2PRecuperatorio"
+}
+2024-07-11 21:21:28,056 p=18652 u=MRM n=ansible | TASK [2PRecuperatorio : Task: 001_2PRecuperatorio | datos alumno] *******************************************************************************************************************************************************************
+2024-07-11 21:21:28,090 p=18652 u=MRM n=ansible | ERROR! We were unable to read either as JSON nor YAML, these are the errors we got from each:
+JSON: Expecting value: line 1 column 1 (char 0)
+
+Syntax Error while loading YAML.
+  mapping values are not allowed in this context
+
+The error appears to be in '/home/MRM/UTN-FRA_SO_Examenes/202407_Recu/ansible/roles/2PRecuperatorio/tasks/001_2PRecuperatorio.yml': line 3, column 25, but may
+be elsewhere in the file depending on the exact syntax problem.
+
+The offending line appears to be:
+
+- name: crear archivo
+    ansible.builtin.copy:
+                        ^ here
+
+2024-07-11 21:21:47,634 p=18858 u=MRM n=ansible | [WARNING]: A duplicate localhost-like entry was found (localhost). First found localhost was 127.0.0.1
+
+2024-07-11 21:21:47,728 p=18858 u=MRM n=ansible | PLAY [all] **************************************************************************************************************************************************************************************************************************
+2024-07-11 21:21:47,733 p=18858 u=MRM n=ansible | TASK [Gathering Facts] **************************************************************************************************************************************************************************************************************
+2024-07-11 21:21:48,917 p=18858 u=MRM n=ansible | ok: [localhost]
+2024-07-11 21:21:48,991 p=18858 u=MRM n=ansible | ok: [127.0.0.1]
+2024-07-11 21:21:49,017 p=18858 u=MRM n=ansible | TASK [include_role : 2PRecuperatorio] ***********************************************************************************************************************************************************************************************
+2024-07-11 21:21:49,063 p=18858 u=MRM n=ansible | TASK [2PRecuperatorio : Rol: 2PRecuperatorio] ***************************************************************************************************************************************************************************************
+2024-07-11 21:21:49,086 p=18858 u=MRM n=ansible | ok: [127.0.0.1] => {
+    "msg": "Inicio de tareas dentro del Rol: 2PRecuperatorio"
+}
+2024-07-11 21:21:49,091 p=18858 u=MRM n=ansible | ok: [localhost] => {
+    "msg": "Inicio de tareas dentro del Rol: 2PRecuperatorio"
+}
+2024-07-11 21:21:49,098 p=18858 u=MRM n=ansible | TASK [2PRecuperatorio : Task: 001_2PRecuperatorio | datos alumno] *******************************************************************************************************************************************************************
+2024-07-11 21:21:49,132 p=18858 u=MRM n=ansible | included: /home/MRM/UTN-FRA_SO_Examenes/202407_Recu/ansible/roles/2PRecuperatorio/tasks/001_2PRecuperatorio.yml for 127.0.0.1, localhost
+2024-07-11 21:21:49,149 p=18858 u=MRM n=ansible | TASK [2PRecuperatorio : crear archivo] **********************************************************************************************************************************************************************************************
+2024-07-11 21:21:49,755 p=18858 u=MRM n=ansible | fatal: [localhost]: FAILED! => {"changed": false, "checksum": "a51da99817bf5805b1a79223b6355be274db464a", "msg": "Destination directory /tmp/alumno does not exist"}
+2024-07-11 21:21:49,796 p=18858 u=MRM n=ansible | fatal: [127.0.0.1]: FAILED! => {"changed": false, "checksum": "a51da99817bf5805b1a79223b6355be274db464a", "msg": "Destination directory /tmp/alumno does not exist"}
+2024-07-11 21:21:49,798 p=18858 u=MRM n=ansible | PLAY RECAP **************************************************************************************************************************************************************************************************************************
+2024-07-11 21:21:49,800 p=18858 u=MRM n=ansible | 127.0.0.1                  : ok=3    changed=0    unreachable=0    failed=1    skipped=0    rescued=0    ignored=0   
+2024-07-11 21:21:49,801 p=18858 u=MRM n=ansible | localhost                  : ok=3    changed=0    unreachable=0    failed=1    skipped=0    rescued=0    ignored=0   
+2024-07-11 21:24:16,155 p=19148 u=MRM n=ansible | [WARNING]: A duplicate localhost-like entry was found (localhost). First found localhost was 127.0.0.1
+
+2024-07-11 21:24:16,256 p=19148 u=MRM n=ansible | PLAY [all] **************************************************************************************************************************************************************************************************************************
+2024-07-11 21:24:16,264 p=19148 u=MRM n=ansible | TASK [Gathering Facts] **************************************************************************************************************************************************************************************************************
+2024-07-11 21:24:17,599 p=19148 u=MRM n=ansible | ok: [localhost]
+2024-07-11 21:24:17,941 p=19148 u=MRM n=ansible | ok: [127.0.0.1]
+2024-07-11 21:24:17,970 p=19148 u=MRM n=ansible | TASK [include_role : 2PRecuperatorio] ***********************************************************************************************************************************************************************************************
+2024-07-11 21:24:18,016 p=19148 u=MRM n=ansible | TASK [2PRecuperatorio : Rol: 2PRecuperatorio] ***************************************************************************************************************************************************************************************
+2024-07-11 21:24:18,036 p=19148 u=MRM n=ansible | ok: [127.0.0.1] => {
+    "msg": "Inicio de tareas dentro del Rol: 2PRecuperatorio"
+}
+2024-07-11 21:24:18,043 p=19148 u=MRM n=ansible | ok: [localhost] => {
+    "msg": "Inicio de tareas dentro del Rol: 2PRecuperatorio"
+}
+2024-07-11 21:24:18,050 p=19148 u=MRM n=ansible | TASK [2PRecuperatorio : Task: 001_2PRecuperatorio | datos alumno] *******************************************************************************************************************************************************************
+2024-07-11 21:24:18,088 p=19148 u=MRM n=ansible | included: /home/MRM/UTN-FRA_SO_Examenes/202407_Recu/ansible/roles/2PRecuperatorio/tasks/001_2PRecuperatorio.yml for 127.0.0.1, localhost
+2024-07-11 21:24:18,095 p=19148 u=MRM n=ansible | TASK [2PRecuperatorio : crear archivo] **********************************************************************************************************************************************************************************************
+2024-07-11 21:24:18,725 p=19148 u=MRM n=ansible | fatal: [localhost]: FAILED! => {"changed": false, "checksum": "a51da99817bf5805b1a79223b6355be274db464a", "msg": "Unsupported parameters for (ansible.legacy.copy) module: state. Supported parameters include: _original_basename, attributes, backup, checksum, content, dest, directory_mode, follow, force, group, local_follow, mode, owner, remote_src, selevel, serole, setype, seuser, src, unsafe_writes, validate (attr)."}
+2024-07-11 21:24:18,764 p=19148 u=MRM n=ansible | fatal: [127.0.0.1]: FAILED! => {"changed": false, "checksum": "a51da99817bf5805b1a79223b6355be274db464a", "msg": "Unsupported parameters for (ansible.legacy.copy) module: state. Supported parameters include: _original_basename, attributes, backup, checksum, content, dest, directory_mode, follow, force, group, local_follow, mode, owner, remote_src, selevel, serole, setype, seuser, src, unsafe_writes, validate (attr)."}
+2024-07-11 21:24:18,767 p=19148 u=MRM n=ansible | PLAY RECAP **************************************************************************************************************************************************************************************************************************
+2024-07-11 21:24:18,768 p=19148 u=MRM n=ansible | 127.0.0.1                  : ok=3    changed=0    unreachable=0    failed=1    skipped=0    rescued=0    ignored=0   
+2024-07-11 21:24:18,768 p=19148 u=MRM n=ansible | localhost                  : ok=3    changed=0    unreachable=0    failed=1    skipped=0    rescued=0    ignored=0   
+2024-07-11 21:24:47,315 p=19475 u=MRM n=ansible | [WARNING]: A duplicate localhost-like entry was found (localhost). First found localhost was 127.0.0.1
+
+2024-07-11 21:24:47,420 p=19475 u=MRM n=ansible | PLAY [all] **************************************************************************************************************************************************************************************************************************
+2024-07-11 21:24:47,427 p=19475 u=MRM n=ansible | TASK [Gathering Facts] **************************************************************************************************************************************************************************************************************
+2024-07-11 21:24:48,636 p=19475 u=MRM n=ansible | ok: [localhost]
+2024-07-11 21:24:48,744 p=19475 u=MRM n=ansible | ok: [127.0.0.1]
+2024-07-11 21:24:48,769 p=19475 u=MRM n=ansible | TASK [include_role : 2PRecuperatorio] ***********************************************************************************************************************************************************************************************
+2024-07-11 21:24:48,814 p=19475 u=MRM n=ansible | TASK [2PRecuperatorio : Rol: 2PRecuperatorio] ***************************************************************************************************************************************************************************************
+2024-07-11 21:24:48,837 p=19475 u=MRM n=ansible | ok: [127.0.0.1] => {
+    "msg": "Inicio de tareas dentro del Rol: 2PRecuperatorio"
+}
+2024-07-11 21:24:48,845 p=19475 u=MRM n=ansible | ok: [localhost] => {
+    "msg": "Inicio de tareas dentro del Rol: 2PRecuperatorio"
+}
+2024-07-11 21:24:48,852 p=19475 u=MRM n=ansible | TASK [2PRecuperatorio : Task: 001_2PRecuperatorio | datos alumno] *******************************************************************************************************************************************************************
+2024-07-11 21:24:48,888 p=19475 u=MRM n=ansible | included: /home/MRM/UTN-FRA_SO_Examenes/202407_Recu/ansible/roles/2PRecuperatorio/tasks/001_2PRecuperatorio.yml for 127.0.0.1, localhost
+2024-07-11 21:24:48,896 p=19475 u=MRM n=ansible | TASK [2PRecuperatorio : crear archivo] **********************************************************************************************************************************************************************************************
+2024-07-11 21:24:49,213 p=19475 u=MRM n=ansible | fatal: [localhost]: FAILED! => {"changed": false, "msg": "Unsupported parameters for (ansible.builtin.file) module: content. Supported parameters include: _diff_peek, _original_basename, access_time, access_time_format, attributes, follow, force, group, mode, modification_time, modification_time_format, owner, path, recurse, selevel, serole, setype, seuser, src, state, unsafe_writes (attr, dest, name)."}
+2024-07-11 21:24:49,250 p=19475 u=MRM n=ansible | fatal: [127.0.0.1]: FAILED! => {"changed": false, "msg": "Unsupported parameters for (ansible.builtin.file) module: content. Supported parameters include: _diff_peek, _original_basename, access_time, access_time_format, attributes, follow, force, group, mode, modification_time, modification_time_format, owner, path, recurse, selevel, serole, setype, seuser, src, state, unsafe_writes (attr, dest, name)."}
+2024-07-11 21:24:49,251 p=19475 u=MRM n=ansible | PLAY RECAP **************************************************************************************************************************************************************************************************************************
+2024-07-11 21:24:49,252 p=19475 u=MRM n=ansible | 127.0.0.1                  : ok=3    changed=0    unreachable=0    failed=1    skipped=0    rescued=0    ignored=0   
+2024-07-11 21:24:49,252 p=19475 u=MRM n=ansible | localhost                  : ok=3    changed=0    unreachable=0    failed=1    skipped=0    rescued=0    ignored=0   
+2024-07-11 21:25:18,269 p=19731 u=MRM n=ansible | [WARNING]: A duplicate localhost-like entry was found (localhost). First found localhost was 127.0.0.1
+
+2024-07-11 21:25:18,365 p=19731 u=MRM n=ansible | PLAY [all] **************************************************************************************************************************************************************************************************************************
+2024-07-11 21:25:18,371 p=19731 u=MRM n=ansible | TASK [Gathering Facts] **************************************************************************************************************************************************************************************************************
+2024-07-11 21:25:19,564 p=19731 u=MRM n=ansible | ok: [localhost]
+2024-07-11 21:25:19,667 p=19731 u=MRM n=ansible | ok: [127.0.0.1]
+2024-07-11 21:25:19,693 p=19731 u=MRM n=ansible | TASK [include_role : 2PRecuperatorio] ***********************************************************************************************************************************************************************************************
+2024-07-11 21:25:19,737 p=19731 u=MRM n=ansible | TASK [2PRecuperatorio : Rol: 2PRecuperatorio] ***************************************************************************************************************************************************************************************
+2024-07-11 21:25:19,764 p=19731 u=MRM n=ansible | ok: [127.0.0.1] => {
+    "msg": "Inicio de tareas dentro del Rol: 2PRecuperatorio"
+}
+2024-07-11 21:25:19,769 p=19731 u=MRM n=ansible | ok: [localhost] => {
+    "msg": "Inicio de tareas dentro del Rol: 2PRecuperatorio"
+}
+2024-07-11 21:25:19,775 p=19731 u=MRM n=ansible | TASK [2PRecuperatorio : Task: 001_2PRecuperatorio | datos alumno] *******************************************************************************************************************************************************************
+2024-07-11 21:25:19,810 p=19731 u=MRM n=ansible | included: /home/MRM/UTN-FRA_SO_Examenes/202407_Recu/ansible/roles/2PRecuperatorio/tasks/001_2PRecuperatorio.yml for 127.0.0.1, localhost
+2024-07-11 21:25:19,817 p=19731 u=MRM n=ansible | TASK [2PRecuperatorio : crear archivo] **********************************************************************************************************************************************************************************************
+2024-07-11 21:25:20,100 p=19731 u=MRM n=ansible | fatal: [localhost]: FAILED! => {"changed": false, "msg": "Unsupported parameters for (file) module: content. Supported parameters include: _diff_peek, _original_basename, access_time, access_time_format, attributes, follow, force, group, mode, modification_time, modification_time_format, owner, path, recurse, selevel, serole, setype, seuser, src, state, unsafe_writes (attr, dest, name)."}
+2024-07-11 21:25:20,216 p=19731 u=MRM n=ansible | fatal: [127.0.0.1]: FAILED! => {"changed": false, "msg": "Unsupported parameters for (file) module: content. Supported parameters include: _diff_peek, _original_basename, access_time, access_time_format, attributes, follow, force, group, mode, modification_time, modification_time_format, owner, path, recurse, selevel, serole, setype, seuser, src, state, unsafe_writes (attr, dest, name)."}
+2024-07-11 21:25:20,217 p=19731 u=MRM n=ansible | PLAY RECAP **************************************************************************************************************************************************************************************************************************
+2024-07-11 21:25:20,217 p=19731 u=MRM n=ansible | 127.0.0.1                  : ok=3    changed=0    unreachable=0    failed=1    skipped=0    rescued=0    ignored=0   
+2024-07-11 21:25:20,217 p=19731 u=MRM n=ansible | localhost                  : ok=3    changed=0    unreachable=0    failed=1    skipped=0    rescued=0    ignored=0   
+2024-07-11 21:26:00,011 p=19987 u=MRM n=ansible | [WARNING]: A duplicate localhost-like entry was found (localhost). First found localhost was 127.0.0.1
+
+2024-07-11 21:26:00,114 p=19987 u=MRM n=ansible | PLAY [all] **************************************************************************************************************************************************************************************************************************
+2024-07-11 21:26:00,120 p=19987 u=MRM n=ansible | TASK [Gathering Facts] **************************************************************************************************************************************************************************************************************
+2024-07-11 21:26:01,365 p=19987 u=MRM n=ansible | ok: [localhost]
+2024-07-11 21:26:01,419 p=19987 u=MRM n=ansible | ok: [127.0.0.1]
+2024-07-11 21:26:01,450 p=19987 u=MRM n=ansible | TASK [include_role : 2PRecuperatorio] ***********************************************************************************************************************************************************************************************
+2024-07-11 21:26:01,497 p=19987 u=MRM n=ansible | TASK [2PRecuperatorio : Rol: 2PRecuperatorio] ***************************************************************************************************************************************************************************************
+2024-07-11 21:26:01,517 p=19987 u=MRM n=ansible | ok: [127.0.0.1] => {
+    "msg": "Inicio de tareas dentro del Rol: 2PRecuperatorio"
+}
+2024-07-11 21:26:01,527 p=19987 u=MRM n=ansible | ok: [localhost] => {
+    "msg": "Inicio de tareas dentro del Rol: 2PRecuperatorio"
+}
+2024-07-11 21:26:01,534 p=19987 u=MRM n=ansible | TASK [2PRecuperatorio : Task: 001_2PRecuperatorio | datos alumno] *******************************************************************************************************************************************************************
+2024-07-11 21:26:01,571 p=19987 u=MRM n=ansible | included: /home/MRM/UTN-FRA_SO_Examenes/202407_Recu/ansible/roles/2PRecuperatorio/tasks/001_2PRecuperatorio.yml for 127.0.0.1, localhost
+2024-07-11 21:26:01,579 p=19987 u=MRM n=ansible | TASK [2PRecuperatorio : crear archivo] **********************************************************************************************************************************************************************************************
+2024-07-11 21:26:02,179 p=19987 u=MRM n=ansible | fatal: [localhost]: FAILED! => {"changed": false, "checksum": "a51da99817bf5805b1a79223b6355be274db464a", "msg": "Destination directory /tmp/alumno does not exist"}
+2024-07-11 21:26:02,304 p=19987 u=MRM n=ansible | fatal: [127.0.0.1]: FAILED! => {"changed": false, "checksum": "a51da99817bf5805b1a79223b6355be274db464a", "msg": "Destination directory /tmp/alumno does not exist"}
+2024-07-11 21:26:02,305 p=19987 u=MRM n=ansible | PLAY RECAP **************************************************************************************************************************************************************************************************************************
+2024-07-11 21:26:02,308 p=19987 u=MRM n=ansible | 127.0.0.1                  : ok=3    changed=0    unreachable=0    failed=1    skipped=0    rescued=0    ignored=0   
+2024-07-11 21:26:02,310 p=19987 u=MRM n=ansible | localhost                  : ok=3    changed=0    unreachable=0    failed=1    skipped=0    rescued=0    ignored=0   
+2024-07-11 21:26:17,444 p=20273 u=MRM n=ansible | [WARNING]: A duplicate localhost-like entry was found (localhost). First found localhost was 127.0.0.1
+
+2024-07-11 21:26:17,541 p=20273 u=MRM n=ansible | PLAY [all] **************************************************************************************************************************************************************************************************************************
+2024-07-11 21:26:17,547 p=20273 u=MRM n=ansible | TASK [Gathering Facts] **************************************************************************************************************************************************************************************************************
+2024-07-11 21:26:18,694 p=20273 u=MRM n=ansible | ok: [localhost]
+2024-07-11 21:26:18,777 p=20273 u=MRM n=ansible | ok: [127.0.0.1]
+2024-07-11 21:26:18,804 p=20273 u=MRM n=ansible | TASK [include_role : 2PRecuperatorio] ***********************************************************************************************************************************************************************************************
+2024-07-11 21:26:18,848 p=20273 u=MRM n=ansible | TASK [2PRecuperatorio : Rol: 2PRecuperatorio] ***************************************************************************************************************************************************************************************
+2024-07-11 21:26:18,873 p=20273 u=MRM n=ansible | ok: [127.0.0.1] => {
+    "msg": "Inicio de tareas dentro del Rol: 2PRecuperatorio"
+}
+2024-07-11 21:26:18,878 p=20273 u=MRM n=ansible | ok: [localhost] => {
+    "msg": "Inicio de tareas dentro del Rol: 2PRecuperatorio"
+}
+2024-07-11 21:26:18,885 p=20273 u=MRM n=ansible | TASK [2PRecuperatorio : Task: 001_2PRecuperatorio | datos alumno] *******************************************************************************************************************************************************************
+2024-07-11 21:26:18,922 p=20273 u=MRM n=ansible | included: /home/MRM/UTN-FRA_SO_Examenes/202407_Recu/ansible/roles/2PRecuperatorio/tasks/001_2PRecuperatorio.yml for 127.0.0.1, localhost
+2024-07-11 21:26:18,930 p=20273 u=MRM n=ansible | TASK [2PRecuperatorio : crear archivo] **********************************************************************************************************************************************************************************************
+2024-07-11 21:26:19,525 p=20273 u=MRM n=ansible | changed: [localhost]
+2024-07-11 21:26:19,564 p=20273 u=MRM n=ansible | ok: [127.0.0.1]
+2024-07-11 21:26:19,600 p=20273 u=MRM n=ansible | TASK [include_role : Instala-tools_RiveraMendes] ************************************************************************************************************************************************************************************
+2024-07-11 21:26:19,659 p=20273 u=MRM n=ansible | TASK [Instala-tools_RiveraMendes : Rol: Instala-tools_RiveraMendes] *****************************************************************************************************************************************************************
+2024-07-11 21:26:19,677 p=20273 u=MRM n=ansible | ok: [127.0.0.1] => {
+    "msg": "Inicio de tareas dentro del Rol: Instala-tools_RiveraMendes"
+}
+2024-07-11 21:26:19,685 p=20273 u=MRM n=ansible | ok: [localhost] => {
+    "msg": "Inicio de tareas dentro del Rol: Instala-tools_RiveraMendes"
+}
+2024-07-11 21:26:19,692 p=20273 u=MRM n=ansible | TASK [Instala-tools_RiveraMendes : Include del yml Instala-tools_RiveraMendes] ******************************************************************************************************************************************************
+2024-07-11 21:26:19,732 p=20273 u=MRM n=ansible | included: /home/MRM/UTN-FRA_SO_Examenes/202407_Recu/ansible/roles/Instala-tools_RiveraMendes/tasks/001_Instala-tools_RiveraMendes.yml for 127.0.0.1, localhost
+2024-07-11 21:26:19,741 p=20273 u=MRM n=ansible | TASK [Instala-tools_RiveraMendes : Instalar programas en hosts] *********************************************************************************************************************************************************************
+2024-07-11 21:26:20,855 p=20273 u=MRM n=ansible | ok: [localhost] => (item=htop)
+2024-07-11 21:26:20,893 p=20273 u=MRM n=ansible | ok: [127.0.0.1] => (item=htop)
+2024-07-11 21:26:21,856 p=20273 u=MRM n=ansible | ok: [localhost] => (item=net-tools)
+2024-07-11 21:26:21,917 p=20273 u=MRM n=ansible | ok: [127.0.0.1] => (item=net-tools)
+2024-07-11 21:26:22,843 p=20273 u=MRM n=ansible | ok: [localhost] => (item=tmux)
+2024-07-11 21:26:22,911 p=20273 u=MRM n=ansible | ok: [127.0.0.1] => (item=tmux)
+2024-07-11 21:26:23,857 p=20273 u=MRM n=ansible | ok: [localhost] => (item=tree)
+2024-07-11 21:26:23,965 p=20273 u=MRM n=ansible | ok: [127.0.0.1] => (item=tree)
+2024-07-11 21:26:24,809 p=20273 u=MRM n=ansible | ok: [localhost] => (item=speedtest-cli)
+2024-07-11 21:26:25,032 p=20273 u=MRM n=ansible | ok: [127.0.0.1] => (item=speedtest-cli)
+2024-07-11 21:26:25,050 p=20273 u=MRM n=ansible | TASK [Otra tarea] *******************************************************************************************************************************************************************************************************************
+2024-07-11 21:26:25,068 p=20273 u=MRM n=ansible | ok: [127.0.0.1] => {
+    "msg": "Despues de la ejecucion del rol"
+}
+2024-07-11 21:26:25,077 p=20273 u=MRM n=ansible | ok: [localhost] => {
+    "msg": "Despues de la ejecucion del rol"
+}
+2024-07-11 21:26:25,118 p=20273 u=MRM n=ansible | PLAY RECAP **************************************************************************************************************************************************************************************************************************
+2024-07-11 21:26:25,120 p=20273 u=MRM n=ansible | 127.0.0.1                  : ok=8    changed=0    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+2024-07-11 21:26:25,120 p=20273 u=MRM n=ansible | localhost                  : ok=8    changed=1    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+2024-07-11 21:27:44,834 p=20940 u=MRM n=ansible | [WARNING]: A duplicate localhost-like entry was found (localhost). First found localhost was 127.0.0.1
+
+2024-07-11 21:27:44,932 p=20940 u=MRM n=ansible | PLAY [all] **************************************************************************************************************************************************************************************************************************
+2024-07-11 21:27:44,938 p=20940 u=MRM n=ansible | TASK [Gathering Facts] **************************************************************************************************************************************************************************************************************
+2024-07-11 21:27:46,097 p=20940 u=MRM n=ansible | ok: [localhost]
+2024-07-11 21:27:46,394 p=20940 u=MRM n=ansible | ok: [127.0.0.1]
+2024-07-11 21:27:46,422 p=20940 u=MRM n=ansible | TASK [include_role : 2PRecuperatorio] ***********************************************************************************************************************************************************************************************
+2024-07-11 21:27:46,467 p=20940 u=MRM n=ansible | TASK [2PRecuperatorio : Rol: 2PRecuperatorio] ***************************************************************************************************************************************************************************************
+2024-07-11 21:27:46,487 p=20940 u=MRM n=ansible | ok: [127.0.0.1] => {
+    "msg": "Inicio de tareas dentro del Rol: 2PRecuperatorio"
+}
+2024-07-11 21:27:46,492 p=20940 u=MRM n=ansible | ok: [localhost] => {
+    "msg": "Inicio de tareas dentro del Rol: 2PRecuperatorio"
+}
+2024-07-11 21:27:46,499 p=20940 u=MRM n=ansible | TASK [2PRecuperatorio : Task: 001_2PRecuperatorio | datos alumno] *******************************************************************************************************************************************************************
+2024-07-11 21:27:46,536 p=20940 u=MRM n=ansible | included: /home/MRM/UTN-FRA_SO_Examenes/202407_Recu/ansible/roles/2PRecuperatorio/tasks/001_2PRecuperatorio.yml for 127.0.0.1, localhost
+2024-07-11 21:27:46,543 p=20940 u=MRM n=ansible | TASK [2PRecuperatorio : Crear directorio] *******************************************************************************************************************************************************************************************
+2024-07-11 21:27:46,841 p=20940 u=MRM n=ansible | changed: [localhost]
+2024-07-11 21:27:46,907 p=20940 u=MRM n=ansible | ok: [127.0.0.1]
+2024-07-11 21:27:46,935 p=20940 u=MRM n=ansible | TASK [2PRecuperatorio : crear archivo] **********************************************************************************************************************************************************************************************
+2024-07-11 21:27:47,441 p=20940 u=MRM n=ansible | changed: [localhost]
+2024-07-11 21:27:47,555 p=20940 u=MRM n=ansible | ok: [127.0.0.1]
+2024-07-11 21:27:47,571 p=20940 u=MRM n=ansible | TASK [include_role : Instala-tools_RiveraMendes] ************************************************************************************************************************************************************************************
+2024-07-11 21:27:47,618 p=20940 u=MRM n=ansible | TASK [Instala-tools_RiveraMendes : Rol: Instala-tools_RiveraMendes] *****************************************************************************************************************************************************************
+2024-07-11 21:27:47,638 p=20940 u=MRM n=ansible | ok: [127.0.0.1] => {
+    "msg": "Inicio de tareas dentro del Rol: Instala-tools_RiveraMendes"
+}
+2024-07-11 21:27:47,644 p=20940 u=MRM n=ansible | ok: [localhost] => {
+    "msg": "Inicio de tareas dentro del Rol: Instala-tools_RiveraMendes"
+}
+2024-07-11 21:27:47,651 p=20940 u=MRM n=ansible | TASK [Instala-tools_RiveraMendes : Include del yml Instala-tools_RiveraMendes] ******************************************************************************************************************************************************
+2024-07-11 21:27:47,689 p=20940 u=MRM n=ansible | included: /home/MRM/UTN-FRA_SO_Examenes/202407_Recu/ansible/roles/Instala-tools_RiveraMendes/tasks/001_Instala-tools_RiveraMendes.yml for 127.0.0.1, localhost
+2024-07-11 21:27:47,697 p=20940 u=MRM n=ansible | TASK [Instala-tools_RiveraMendes : Instalar programas en hosts] *********************************************************************************************************************************************************************
+2024-07-11 21:27:48,855 p=20940 u=MRM n=ansible | ok: [localhost] => (item=htop)
+2024-07-11 21:27:48,886 p=20940 u=MRM n=ansible | ok: [127.0.0.1] => (item=htop)
+2024-07-11 21:27:49,853 p=20940 u=MRM n=ansible | ok: [localhost] => (item=net-tools)
+2024-07-11 21:27:49,921 p=20940 u=MRM n=ansible | ok: [127.0.0.1] => (item=net-tools)
+2024-07-11 21:27:50,837 p=20940 u=MRM n=ansible | ok: [localhost] => (item=tmux)
+2024-07-11 21:27:51,080 p=20940 u=MRM n=ansible | ok: [127.0.0.1] => (item=tmux)
+2024-07-11 21:27:51,800 p=20940 u=MRM n=ansible | ok: [localhost] => (item=tree)
+2024-07-11 21:27:52,144 p=20940 u=MRM n=ansible | ok: [127.0.0.1] => (item=tree)
+2024-07-11 21:27:52,796 p=20940 u=MRM n=ansible | ok: [localhost] => (item=speedtest-cli)
+2024-07-11 21:27:53,179 p=20940 u=MRM n=ansible | ok: [127.0.0.1] => (item=speedtest-cli)
+2024-07-11 21:27:53,198 p=20940 u=MRM n=ansible | TASK [Otra tarea] *******************************************************************************************************************************************************************************************************************
+2024-07-11 21:27:53,217 p=20940 u=MRM n=ansible | ok: [127.0.0.1] => {
+    "msg": "Despues de la ejecucion del rol"
+}
+2024-07-11 21:27:53,226 p=20940 u=MRM n=ansible | ok: [localhost] => {
+    "msg": "Despues de la ejecucion del rol"
+}
+2024-07-11 21:27:53,272 p=20940 u=MRM n=ansible | PLAY RECAP **************************************************************************************************************************************************************************************************************************
+2024-07-11 21:27:53,273 p=20940 u=MRM n=ansible | 127.0.0.1                  : ok=9    changed=0    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+2024-07-11 21:27:53,274 p=20940 u=MRM n=ansible | localhost                  : ok=9    changed=2    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
